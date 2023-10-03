@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/29012c8d5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-4 sticky-top rounded-5 shadow p-3 bg-white container" style="top: 53px; ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/LCH_logo.png" alt="LCH" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav ">
+            <li class="nav-item ms-4 active">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown ms-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT US
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Labaid Cancer Hospital</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Message Of Chairman</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Message of Managing Director </div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Management Team</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Winning Cancer</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Centers of Excellence</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Department</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">FAQ</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Contact With Us</div></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ms-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICE
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">OPD</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Chemotherapy &amp; Day Care</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnostic Services</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Pharmacy</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Radiotherapy</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Nuclear Medicine</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnostic Test</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Package</div></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ms-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">News & Article</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Award Recognition</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Gallary</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Healthtips</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Career</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Certification</div></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ms-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                OPORAJOYEE ABASHON
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">About Oporajoyee Abashon</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Service Details</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Room Rent</div></a></li>
+                <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Visitor Policy</div></a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          <form class="d-flex" role="search">
+            <!-- <a class="kb-btn kb-btn-1 ms-4">Login or Sign Up</a> -->
+            <div class="ms-4 d-flex align-items-center">
+              <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            
+            <button class="btn lp-btn-outline-primary ms-4">Get Appointment</button>
+          </form>
+          <!-- <button type="button" class="btn btn-link"><span class="bi bi-cart"></span></button> -->
+        </div>
+      </div>
+    </nav>
+
+    <section id="slider" style="top: -122px; position: relative;">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slider/slider1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-5 animate__animated animate__fadeInUp">Leading the fight</h1>
+              <h1 class="display-2 animate__animated animate__fadeInUp"><strong style="font-weight: 600;">Against Cancer</strong></h1>
+              <h1 class="display-5 animate__animated animate__fadeInUp">Through cutting-edge Research</h1>
+              <br>
+              <button class="btn lp-btn-outline-primary animate__animated animate__fadeInUp">LEARN MORE</button>
+            </div>
+          </div>
+
+          <!-- <div class="carousel-item">
+            <img src="images/slider/slider1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title1">Healthcare</h1>
+              <h1 class="title2">at your Fingertips</h1>
+              <p>Essential for the well-being and prosperity of </p>
+              <p>individuals and societies</p>
+              <button class="btn lp-btn-outline-primary">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/slider1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title1">Healthcare</h1>
+              <h1 class="title2">at your Fingertips</h1>
+              <p>Essential for the well-being and prosperity of </p>
+              <p>individuals and societies</p>
+              <button class="btn lp-btn-outline-primary">LEARN MORE</button>
+            </div>
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="main-feature">
+      <div class="container" style="height: 16px;position: relative;top: -92px;">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-4 col-md-6 col-sm-6 p-4  ">
+            <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;">
+              <span>
+                <h1><i class="fa-solid fa-user-doctor" style=" padding-left:16px;"></i></h1>
+                <div class="card-body">
+                  <h1 class="display-6">Find</h1>
+                  <h2 >Doctor</h2>
+                  <p class="card-text">The complete integrated cancer hospital with forefront of medical technologies and expertise in Bangladesh.</p>
+                  <br>
+                  <button class="btn lp-btn-outline-primary">Get Appointment</button>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 p-4  ">
+            <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;" >
+              <span>
+                <h1><i class="fa-solid fa-magnifying-glass-chart" style=" padding-left:16px;"></i></h1>
+                <div class="card-body">
+                  <h1 class="display-6">Send</h1>
+                  <h2 >Query</h2>
+                  <p class="card-text">
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fa-solid fa-user-doctor"></i></span>Experienced Doctors</li>
+                      <li><span class="fa-li"><i class="fa-solid fa-user-tie"></i></span>Dedicated Professional Staffs</li>
+                      <li><span class="fa-li"><i class="fa-solid fa-headset"></i></span>24 Hours Emergency Service</li>
+                    </ul>
+                  </p>
+                  
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 p-4  ">
+            <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;">
+              <span>
+                <h1><i class="fa-solid fa-calendar-days" style=" padding-left:16px;"></i></h1>
+                <div class="card-body">
+                  <h1 class="display-6">Get</h1>
+                  <h2 >Appointment</h2>
+                  <p class="card-text">
+                    <table class="table">
+                      <tr>
+                        <td>Mon - Friday</td>
+                        <td class="text-end">8:00 - 10:30</td>
+                      </tr>
+                      <tr>
+                        <td>Mon - Friday</td>
+                        <td class="text-end">8:00 - 10:30</td>
+                      </tr>
+                      <tr>
+                        <td>Mon - Friday</td>
+                        <td class="text-end">8:00 - 10:30</td>
+                      </tr>
+                    </table>
+                  </p>
+                </div>
+              </span>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+    <section id="why-patient-choose" style="background: url('images/hospital.png'); 
+  background-repeat: no-repeat;
+  background-position: right; margin-top: 199px; ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="text-left" style="padding-bottom: 60px;">
+              <h4 class="title1">Why patient choose</h4>
+              <h1 class="title2">Labaid Cancer Hospital & Super <br> Speciality Centre</h1>
+              <br>
+              <br>
+              <p class="pe-5">Labaid Cancer Hospital and Super Speciality Center, a 
+                concern of Labaid Group is the only multi-disciplinary 
+                super-specialty tertiary care hospital in Bangladesh, 
+                confidently providing comprehensive health care with the 
+                latest medical, surgical and diagnostic facilities. 
+                These services are provided by expert medical professionals, 
+                skilled nurses and technologists using state-of-the-art technology. 
+                surgical and diagnostic facilities. These services are provided by expert 
+                medical professionals, skilled nurses and technologists using 
+                state-of-the-art technology.</p>
+            </div>
+            <div class="row justify-content-left col-md-9">
+
+              <div class=" col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card p-4 " style="width: 189px;">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Brain</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class=" col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " style="width: 189px;">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Thyroid</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class=" col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " style="width: 189px;">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Lungs</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class=" col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " style="width: 189px;">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Bone</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class=" col-md-6 col-sm-6 p-4 ">
+                <div class="card service_card  p-4 " style="width: 189px;">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Eye</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+    <section id="service">
+      <div class="text-center" style="    padding-bottom: 150px;">
+        <h4 class="title1">Center of</h4>
+        <h1 class="title2">Excellence</h1>
+      </div>
+      <div class="service_background container-fluid">
+          <div class="container" style="height: 16px;position: relative;top: -92px;">
+            <div class="row justify-content-center">
+
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 ">
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Brain</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Thyroid</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Lungs</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Bone</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4 ">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Eye</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4  ">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Blood</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Skin</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Kidney</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Breast</h5>
+                      <p class="card-text">Cancer</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Penile</h5>
+                      <p class="card-text">Cancer</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 p-4">
+                <div class="card service_card  p-4 " >
+                  <span>
+                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Urinary Bladder</h5>
+                      <p class="card-text">Oncology</p>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <section id="doctor">
+      <div class="text-center" style="padding-bottom: 170px;">
+        <h4 class="title1">Our</h4>
+        <h1 class="title2">Experienced Doctor</h1>
+      </div>
+      <div class="service_background container-fluid">
+        <div class="container" style="height: 16px;position: relative;top: -92px;">
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/product/doctor1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                  <p class="card-text">Medical Oncology</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="d-flex justify-content-center">
+            <a class="kb-btn kb-btn-1">View All Product</a>
+          </div> -->
+        </div>
+      </div>
+
+    </section>
+
+    <section id="technology">
+      <div class="text-center" style="padding-bottom: 170px;">
+        <h1 class="title2">Technology</h1>
+        <div class="container pb-5 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <p class="text-center">
+            Labaid Cancer Hospital & super specialty center is the forefront of the fight against Cancer. It brings all modern equipment for Diagnosis of the diseases as well as for highest possible radiotherapy facilities. Such intensity requires for innovative treatment & Methods. Cancer research & treatment is an area that needs more serious work and Labaid Cancer Hospital take the challenges to win over Cancer. It will set benchmark in the industry by introducing many new technologies in Bangladesh which will increase the accuracy and save valuable times. We believe we will stand beside our patient with our best effort
+          </p>
+          <br>
+          <br>
+        </div>
+      </div>
+      
+      <div class="technology_background container-fluid">
+        <div class="container" style="height: 16px;position: relative;top: -249px;">
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                  <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">BRACHYTHERAPY SAGINOVA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
+                <img src="./images/tech/tech1.png" class="card-img-top rounded-3" alt="..." style="width: 224px; height: 306px; object-fit: cover;">
+                <div class="card-body rounded-3 shadow"  >
+                  <h6 class="card-title p-2">FLAXAVISION</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="d-flex justify-content-center">
+            <a class="kb-btn kb-btn-1">View All Product</a>
+          </div> -->
+        </div>
+      </div>
+
+    </section>
+    <section id="review">
+      <div class="text-center" style="padding-bottom: 60px;">
+        <h5 class="title1">Patients</h5>
+        <h1 class="title2">Testimonials</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5" style="padding: 0 34px;">
+            <div class="card rounded-3">
+              <q class="customer-review">A Proven Leader With a Record of Accomplishments In The Transforming Healthcare Sector! Congratulations to our honorable Managing Director of Labaid Cancer Hospital and Super Speciality Centre.</q>
+              <hr>
+              <div class="row">
+                <div class="col-md-3"><img src="./images/patient/patient1.png" class="rounded-circle" alt="" style="width: 3.494rem;"></div>
+                <div class="col-md-9">
+                  <div><h4>Alex Jhon</h4></div>
+                  <p class="blue">Patient</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5" style="padding: 0 34px;">
+            <div class="card rounded-3">
+              <q class="customer-review">A Proven Leader With a Record of Accomplishments In The Transforming Healthcare Sector! Congratulations to our honorable Managing Director of Labaid Cancer Hospital and Super Speciality Centre.</q>
+              <hr>
+              <div class="row">
+                <div class="col-md-3"><img src="./images/patient/patient1.png" class="rounded-circle" alt="" style="width: 3.494rem;"></div>
+                <div class="col-md-9">
+                  <div><h4>Alex Jhon</h4></div>
+                  <p class="blue">Patient</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="counter" data-scroll="counter_load()">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h1 class="clone-copy num-counter" data-target="22000"></h1>
+              <h1 class="num-counter" data-target="22000"></h1>
+              <p>DOCTORS</p>
+            </div>
+            <div class="col-md-3">
+              <h1 class="clone-copy num-counter" data-target="78000"></h1>
+              <h1 class="num-counter" data-target="78000"></h1>
+              <p>APP INSTALLATION</p>
+            </div>
+            <div class="col-md-3">
+              <h1 class="clone-copy num-counter" data-target="50000"></h1>
+              <h1 class="num-counter" data-target="50000"></h1>
+              <p>DOCTOR <br> APPOINTMENTS SERVED</p>
+            </div>
+            <div class="col-md-3">
+              <h1 class="clone-copy num-counter" data-target="22000"></h1>
+              <h1 class="num-counter" data-target="22000"></h1>
+              <p>MEDICINE ON HAND</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="blog">
+      <div class="text-center" style="padding-bottom: 60px;">
+        <h5 class="title1">Let Us Know</h5>
+        <h1 class="title2">Our Blog</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 p-4">
+            <div class="rounded-3 shadow">
+              <div class="blog-image position-relative w-100 rounded-3" style="background-image: url('./images/blog/blog1.jpg');">
+                <div class="position-absolute bg-dark rounded-3" style="opacity: .3; top: 0; left:0; right: 0; bottom: 0;"></div>
+                <div  class="position-absolute px-2 py-1 text-white rounded-3" style="bottom:10px; left: 10px; background-color: #ffff;"><small class="blue">December 5, 2021</small></div>
+              </div>
+              <div class="p-4">
+                <div class="d-flex mb-4">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-user me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Admin</small>
+                  </div>
+                  <div class="d-flex align-items-center ms-4">
+                    <i class="fa-regular fa-comment me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Comments</small>
+                  </div>
+                </div>
+                <h3 class="text-dark" style="font-weight: 400;" >Heart failure treatment :</h3>
+                <p class="tex-secondary">High blood pressure</p>
+                <a href="" class="read-more">READ MORE +</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="rounded-3 shadow">
+              <div class="blog-image position-relative w-100 rounded-3" style="background-image: url('./images/blog/blog2.jpg');">
+                <div class="position-absolute bg-dark rounded-3" style="opacity: .3; top: 0; left:0; right: 0; bottom: 0;"></div>
+                <div  class="position-absolute px-2 py-1 text-white rounded-3" style="bottom:10px; left: 10px; background-color: #ffff;"><small class="blue">December 5, 2021</small></div>
+              </div>
+              <div class="p-4">
+                <div class="d-flex mb-4">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-user me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Admin</small>
+                  </div>
+                  <div class="d-flex align-items-center ms-4">
+                    <i class="fa-regular fa-comment me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Comments</small>
+                  </div>
+                </div>
+                <h3 class="text-dark" style="font-weight: 400;" >X-Ray Treatment :</h3>
+                <p class="tex-secondary">Broken bone</p>
+                <a href="" class="read-more">READ MORE +</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="blog-card rounded-3 shadow">
+              <div class="blog-image position-relative w-100 rounded-3" style="background-image: url('./images/blog/blog3.jpg');">
+                <div class="position-absolute bg-dark rounded-3" style="opacity: .3; top: 0; left:0; right: 0; bottom: 0;"></div>
+                <div  class="position-absolute px-2 py-1 text-white rounded-3" style="bottom:10px; left: 10px; background-color: #ffff;"><small class="blue">December 5, 2021</small></div>
+              </div>
+              <div class="p-4">
+                <div class="d-flex mb-4">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-user me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Admin</small>
+                  </div>
+                  <div class="d-flex align-items-center ms-4">
+                    <i class="fa-regular fa-comment me-2 blue"></i>
+                    <small class="mt-1" style="color: #6A6A6A;">Comments</small>
+                  </div>
+                </div>
+                <h3 class="text-dark" style="font-weight: 400;" >Stay healthy :</h3>
+                <p class="tex-secondary">Change the food habbit</p>
+                <a href="" class="read-more">READ MORE +</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="subscribe">
+    <div class="container">
+        <div class="subscribe-form align-items-center rounded-3">
+          <div class="row align-items-center">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-1">
+              <i class="fa-regular fa-envelope text-white fa-2xl"></i>
+            </div>
+            <div class="col-xs-6 col-sm-10 col-md-10 col-lg-5">
+              <h3 class="subscribe-title">For Latest Updates <br> Subscribe Our Newsletter</h3>
+            </div>
+            <div class="col-xs-6 col-sm-8 col-md-9 col-lg-4">
+              <input type="text" class="form-control" style="min-height: 48px; border: none; background: #0000001c;color: white;">
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 p-3">
+              <button type="button" class="btn btn-outline-light btn-lg" style="font-size: 14px;letter-spacing: 0.5px;font-family: Montserrat;">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <ul>
+            <li><img src="./images/logo-footer.png" alt="Lifeplus BD" width="100"></li>
+            <li>Lorem Ipsum text, and its so cool.</li>
+            <li>
+
+            <a href="" class="pe-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                <g clip-path="url(#clip0_517_590)">
+                <path d="M14 7.29687C14 3.43091 10.866 0.296875 7 0.296875C3.13403 0.296875 0 3.43085 0 7.29687C0 10.7907 2.55981 13.6867 5.90625 14.2118V9.32031H4.12891V7.29687H5.90625V5.75469C5.90625 4.00031 6.95133 3.03125 8.55023 3.03125C9.31612 3.03125 10.1172 3.16797 10.1172 3.16797V4.89062H9.23453C8.36489 4.89062 8.09375 5.43023 8.09375 5.98383V7.29687H10.0352L9.7248 9.32031H8.09375V14.2118C11.4402 13.6867 14 10.7908 14 7.29687Z" fill="#1877F2"/>
+                <path d="M9.7248 9.32031L10.0352 7.29688H8.09375V5.98383C8.09375 5.43017 8.36495 4.89062 9.23453 4.89062H10.1172V3.16797C10.1172 3.16797 9.31612 3.03125 8.55023 3.03125C6.95133 3.03125 5.90625 4.00031 5.90625 5.75469V7.29688H4.12891V9.32031H5.90625V14.2118C6.26807 14.2685 6.63376 14.297 7 14.2969C7.36624 14.297 7.73193 14.2686 8.09375 14.2118V9.32031H9.7248Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_517_590">
+                <rect width="14" height="14" fill="white" transform="translate(0 0.296875)"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+
+            <a href="" class="pe-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <g clip-path="url(#clip0_517_593)">
+                <path d="M14 1.88003C13.4758 2.14418 12.9197 2.31757 12.3503 2.39443C12.9434 1.99013 13.3988 1.34989 13.6132 0.587058C13.0494 0.967595 12.4326 1.23571 11.7893 1.37981C11.2654 0.744924 10.5189 0.348145 9.69276 0.348145C8.10649 0.348145 6.82041 1.81086 6.82041 3.61494C6.82041 3.87102 6.84584 4.12032 6.89478 4.35948C4.50767 4.2232 2.39127 2.92264 0.974586 0.946145C0.727398 1.42864 0.585758 1.98988 0.585758 2.5885C0.585758 3.72192 1.09288 4.7218 1.86353 5.30768C1.40741 5.29143 0.961324 5.15131 0.562516 4.89902C0.562352 4.9127 0.562352 4.92638 0.562352 4.94013C0.562352 6.52296 1.55241 7.84336 2.86634 8.14348C2.44338 8.27431 1.99972 8.29346 1.56926 8.19946C1.93473 9.49734 2.99551 10.4418 4.25234 10.4682C3.26933 11.3444 2.03082 11.8667 0.68518 11.8667C0.453305 11.8667 0.224711 11.8512 0 11.821C1.2711 12.748 2.78086 13.2888 4.40289 13.2888C9.68609 13.2888 12.5751 8.3108 12.5751 3.9938C12.5751 3.85211 12.5723 3.71123 12.5668 3.57115C13.1291 3.1088 13.6144 2.53613 14 1.88003Z" fill="#55ACEE"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_517_593">
+                <rect width="14" height="13" fill="white" transform="translate(0 0.296875)"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+
+            <a href="" class="pe-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                <g clip-path="url(#clip0_517_595)">
+                  <path d="M0.29876 7.21321C0.298432 8.38948 0.608182 9.53802 1.19717 10.5504L0.242432 14.0092L3.80981 13.0811C4.79649 13.6141 5.90201 13.8934 7.02543 13.8934H7.02839C10.737 13.8934 13.7559 10.899 13.7575 7.21847C13.7582 5.43499 13.0589 3.75792 11.7883 2.49619C10.5179 1.23456 8.82832 0.539388 7.02811 0.538574C3.31904 0.538574 0.300346 3.53284 0.298814 7.21321" fill="url(#paint0_linear_517_595)"/>
+                  <path d="M0.0585156 7.21092C0.0581328 8.42952 0.378984 9.61914 0.988969 10.6677L0 14.2506L3.69529 13.2892C4.71346 13.84 5.85982 14.1304 7.0263 14.1309H7.02931C10.871 14.1309 13.9984 11.0287 14 7.21646C14.0007 5.36889 13.2762 3.63153 11.9602 2.3246C10.644 1.01782 8.89399 0.297635 7.02931 0.296875C3.18697 0.296875 0.0600469 3.39858 0.0585156 7.21092ZM2.25914 10.4871L2.12116 10.2698C1.54115 9.35471 1.23501 8.29722 1.23545 7.21136C1.2367 4.04263 3.83567 1.46463 7.0315 1.46463C8.57916 1.46528 10.0336 2.06391 11.1276 3.15005C12.2215 4.2363 12.8235 5.68025 12.8231 7.21602C12.8216 10.3847 10.2226 12.9631 7.02931 12.9631H7.02702C5.98724 12.9625 4.96748 12.6855 4.07816 12.1619L3.86652 12.0373L1.67366 12.6078L2.25914 10.4871V10.4871Z" fill="url(#paint1_linear_517_595)"/>
+                  <path d="M5.28707 4.32021C5.15659 4.03245 5.01927 4.02665 4.89518 4.0216C4.79357 4.01726 4.67741 4.01758 4.56137 4.01758C4.44521 4.01758 4.25648 4.06094 4.09696 4.23377C3.93727 4.40676 3.4873 4.82481 3.4873 5.67506C3.4873 6.52537 4.11145 7.34709 4.19846 7.46251C4.28558 7.57771 5.40339 9.37839 7.17373 10.0711C8.64505 10.6468 8.94446 10.5323 9.26378 10.5034C9.58316 10.4747 10.2943 10.0855 10.4394 9.68194C10.5846 9.27844 10.5846 8.93256 10.5411 8.86028C10.4975 8.78827 10.3814 8.74503 10.2072 8.65864C10.033 8.5722 9.17666 8.1541 9.01703 8.09641C8.85734 8.03879 8.74124 8.01003 8.62509 8.18307C8.50893 8.35585 8.17539 8.74503 8.07373 8.86028C7.97217 8.97581 7.87051 8.99019 7.69638 8.90375C7.52209 8.81703 6.96116 8.63476 6.29567 8.04606C5.77789 7.58796 5.42833 7.02227 5.32672 6.84922C5.22511 6.67644 5.31584 6.58279 5.40317 6.49667C5.48143 6.41924 5.57741 6.29486 5.66458 6.19399C5.75142 6.09306 5.78041 6.02105 5.83848 5.90579C5.89662 5.79043 5.86752 5.6895 5.82405 5.60306C5.78041 5.51661 5.44195 4.66191 5.28707 4.32021Z" fill="white"/>
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_517_595" x1="675.997" y1="1347.6" x2="675.997" y2="0.538574" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1FAF38"/>
+                    <stop offset="1" stop-color="#60D669"/>
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_517_595" x1="700" y1="1395.67" x2="700" y2="0.296875" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F9F9F9"/>
+                    <stop offset="1" stop-color="white"/>
+                  </linearGradient>
+                  <clipPath id="clip0_517_595">
+                    <rect width="14" height="14" fill="white" transform="translate(0 0.296875)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="" class="pe-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                <g clip-path="url(#clip0_517_599)">
+                  <path d="M10.7188 0.296875H3.28125C1.46907 0.296875 0 1.76594 0 3.57812V11.0156C0 12.8278 1.46907 14.2969 3.28125 14.2969H10.7188C12.5309 14.2969 14 12.8278 14 11.0156V3.57812C14 1.76594 12.5309 0.296875 10.7188 0.296875Z" fill="url(#paint0_radial_517_599)"/>
+                  <path d="M10.7188 0.296875H3.28125C1.46907 0.296875 0 1.76594 0 3.57812V11.0156C0 12.8278 1.46907 14.2969 3.28125 14.2969H10.7188C12.5309 14.2969 14 12.8278 14 11.0156V3.57812C14 1.76594 12.5309 0.296875 10.7188 0.296875Z" fill="url(#paint1_radial_517_599)"/>
+                  <path d="M7.00049 1.82812C5.51529 1.82812 5.32886 1.83463 4.74556 1.86116C4.16336 1.88784 3.76595 1.97999 3.41824 2.11523C3.05851 2.25491 2.75341 2.44177 2.44945 2.74584C2.14523 3.04984 1.95836 3.35495 1.81825 3.71452C1.68263 4.06233 1.59037 4.45991 1.56417 5.04184C1.53809 5.62519 1.53125 5.81167 1.53125 7.29693C1.53125 8.78219 1.53781 8.96802 1.56428 9.55131C1.59108 10.1335 1.68323 10.5309 1.81836 10.8786C1.95814 11.2384 2.14501 11.5435 2.44907 11.8474C2.75297 12.1516 3.05807 12.339 3.41753 12.4786C3.76551 12.6139 4.16298 12.706 4.74507 12.7327C5.32842 12.7592 5.51469 12.7657 6.99984 12.7657C8.4852 12.7657 8.67103 12.7592 9.25433 12.7327C9.83653 12.706 10.2344 12.6139 10.5824 12.4786C10.9419 12.339 11.2466 12.1516 11.5504 11.8474C11.8547 11.5435 12.0415 11.2384 12.1816 10.8788C12.3161 10.5309 12.4084 10.1334 12.4357 9.55142C12.4619 8.96812 12.4688 8.78219 12.4688 7.29693C12.4688 5.81167 12.4619 5.6253 12.4357 5.04194C12.4084 4.45974 12.3161 4.06238 12.1816 3.71468C12.0415 3.35495 11.8547 3.04984 11.5504 2.74584C11.2463 2.44166 10.942 2.2548 10.582 2.11529C10.2334 1.97999 9.83576 1.88779 9.25356 1.86116C8.67021 1.83463 8.48449 1.82812 6.9988 1.82812H7.00049ZM6.50989 2.81365C6.65552 2.81343 6.818 2.81365 7.00049 2.81365C8.4607 2.81365 8.63373 2.8189 9.21036 2.84509C9.74356 2.86948 10.033 2.95857 10.2257 3.03344C10.481 3.13253 10.6629 3.25104 10.8542 3.4425C11.0456 3.63391 11.1641 3.81618 11.2634 4.07141C11.3383 4.26391 11.4275 4.55331 11.4518 5.08652C11.478 5.66303 11.4837 5.83617 11.4837 7.29567C11.4837 8.75517 11.478 8.92837 11.4518 9.50483C11.4274 10.038 11.3383 10.3274 11.2634 10.52C11.1643 10.7752 11.0456 10.9569 10.8542 11.1482C10.6628 11.3396 10.4811 11.4581 10.2257 11.5573C10.0332 11.6324 9.74356 11.7213 9.21036 11.7457C8.63384 11.7719 8.4607 11.7776 7.00049 11.7776C5.54023 11.7776 5.36714 11.7719 4.79068 11.7457C4.25748 11.7211 3.96807 11.632 3.77513 11.5571C3.51996 11.458 3.33763 11.3395 3.14623 11.1481C2.95482 10.9567 2.83637 10.7749 2.737 10.5196C2.66213 10.327 2.57294 10.0376 2.54866 9.50439C2.52246 8.92787 2.51721 8.75473 2.51721 7.2943C2.51721 5.83393 2.52246 5.66166 2.54866 5.08515C2.57305 4.55194 2.66213 4.26254 2.737 4.06977C2.83615 3.81454 2.95482 3.63227 3.14628 3.44086C3.33769 3.24945 3.51996 3.13095 3.77519 3.03163C3.96796 2.95644 4.25748 2.86757 4.79068 2.84307C5.29517 2.82027 5.49068 2.81343 6.50989 2.81228V2.81365ZM9.91971 3.72168C9.55741 3.72168 9.26346 4.01535 9.26346 4.37771C9.26346 4.74002 9.55741 5.03396 9.91971 5.03396C10.282 5.03396 10.576 4.74002 10.576 4.37771C10.576 4.01541 10.282 3.72146 9.91971 3.72146V3.72168ZM7.00049 4.48845C5.44955 4.48845 4.19207 5.74594 4.19207 7.29693C4.19207 8.84792 5.44955 10.1048 7.00049 10.1048C8.55148 10.1048 9.80853 8.84792 9.80853 7.29693C9.80853 5.74599 8.55138 4.48845 7.00038 4.48845H7.00049ZM7.00049 5.47398C8.00723 5.47398 8.82345 6.29008 8.82345 7.29693C8.82345 8.30367 8.00723 9.11988 7.00049 9.11988C5.9937 9.11988 5.17759 8.30367 5.17759 7.29693C5.17759 6.29008 5.9937 5.47398 7.00049 5.47398Z" fill="white"/>
+                </g>
+                <defs>
+                  <radialGradient id="paint0_radial_517_599" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(3.71875 15.3751) rotate(-90) scale(13.875 12.9049)">
+                    <stop stop-color="#FFDD55"/>
+                    <stop offset="0.1" stop-color="#FFDD55"/>
+                    <stop offset="0.5" stop-color="#FF543E"/>
+                    <stop offset="1" stop-color="#C837AB"/>
+                  </radialGradient>
+                  <radialGradient id="paint1_radial_517_599" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.34505 1.30537) rotate(78.681) scale(6.20222 25.5657)">
+                    <stop stop-color="#3771C8"/>
+                    <stop offset="0.128" stop-color="#3771C8"/>
+                    <stop offset="1" stop-color="#6600FF" stop-opacity="0"/>
+                  </radialGradient>
+                  <clipPath id="clip0_517_599">
+                    <rect width="14" height="14" fill="white" transform="translate(0 0.296875)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+
+            </li> 
+          </ul>
+          
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="">Doctor Appointments</a></li>
+            <li><a href="">Video Call Appointments</a></li>
+            <li><a href="">Diagnostic & Hospital</a></li>
+            <li><a href="">Medicine</a></li>
+            <li><a href="">HealthCare Package</a></li>
+            <li><a href="">Home Nursing Care</a></li>
+            <li><a href="">Ambulance Service</a></li>
+            <li><a href="">Lifestyle</a></li>
+            <li><a href="">Healthcare Card</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <h4>Our Blog</h4>
+          <ul>
+            <li>
+              <div class="d-flex align-items-center pb-3">
+                <span class="pe-3">
+                  <img src="./images/blog/blog1.jpg" width="90 " class="rounded-3 img-fluid" style="width: 99px;
+                  height: 87.815px;"> 
+                </span>
+                <span>
+                  <div><i class="fa-solid fa-calendar-alt"></i> 30.7.2023</div>
+                  <div><a href="">X-Ray Treatment</a></div>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex align-items-center pb-3">
+                <span class="pe-3">
+                  <img src="./images/blog/blog2.jpg" class="rounded-3 img-fluid" style="width: 99px;
+                  height: 87.815px;"> 
+                </span>
+                <span>
+                  <div><i class="fa-solid fa-calendar-alt"></i> 30.7.2023</div>
+                  <div><a href="">Change the Food habbit</a></div>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <h4>Contuct With Us</h4>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> 24/1 SHNA HOUSE, Green Road, Dhaka -1205</li>
+            <li><i class="fa-solid fa-phone"></i> +88017 6666 1030</li>
+            <li><i class="fa-solid fa-envelope"></i> info@lifeplusbd.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="scroll_element_detector.js"></script>
+    <!-- <script src="video-js.css"></script> -->
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+
+
+
+<script>
+  
+  if (document.getElementById("vid1")) {
+  videojs("vid1").ready(function() {
+    
+    var myPlayer = this;
+
+    //Set initial time to 0
+    var currentTime = 0;
+    
+    //This example allows users to seek backwards but not forwards.
+    //To disable all seeking replace the if statements from the next
+    //two functions with myPlayer.currentTime(currentTime);
+
+    myPlayer.on("seeking", function(event) {
+      if (currentTime < myPlayer.currentTime()) {
+        myPlayer.currentTime(currentTime);
+      }
+    });
+
+    myPlayer.on("seeked", function(event) {
+      if (currentTime < myPlayer.currentTime()) {
+        myPlayer.currentTime(currentTime);
+      }
+    });
+
+    setInterval(function() {
+      if (!myPlayer.paused()) {
+        currentTime = myPlayer.currentTime();
+      }
+    }, 1000);
+
+  });
+}
+
+
+</script>
+    <script>
+      
+     function counter_load(){
+        const counters = document.querySelectorAll(".num-counter");
+      counters.forEach((counter) => {
+        counter.innerText = "0";
+        const updateCounter = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+          const increment = target / 700;
+          if (count < target) {
+            counter.innerText = `${Math.ceil(count + increment)}`;
+            setTimeout(updateCounter, 1);
+          } else counter.innerText = target;
+        };
+        updateCounter();
+      });
+      }
+      
+    </script>
+    
+  </body>
+</html>
