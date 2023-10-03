@@ -770,8 +770,8 @@ border-radius: 15px;
 
 /*footer */
 #footer{
-  padding-top: 133px ;
-  padding-bottom: 67px;
+  padding-top: 70px ;
+  padding-bottom: 10px;
   background: linear-gradient(179deg, #1E1E1E 0%, #6C5CA8 100%);
   color: #FFF;
   font-family: "Montserrat", sans-serif;
@@ -804,9 +804,115 @@ border-radius: 15px;
   color: #FFF;
 }
 #footer a:hover{
-  color: #60BB46;
+  /* color: #60BB46; */
+  color: linear-gradient(225.73deg,rgba(68, 200, 245, 1) 0%,rgba(138, 115, 173, 1) 100%);
   transform: scaleY(1);
 }
+
+.footer-container {
+  padding: 0 3%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-about-us ul li, .footer-services ul li, .footer-oporajoyee-abashon ul li , .footer-contact-us ul li{
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5px !important;
+}
+
+#footer .social-links{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#footer .social-links a {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  background: linear-gradient(225.73deg,rgba(68, 200, 245, 1) 0%,rgba(138, 115, 173, 1) 100%);
+}
+
+#footer .social-links a:hover {
+  transform: scale(1.1);
+}
+
+.footer-contact-us {
+  position: relative;
+}
+
+.hot-line-contact {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  display: flex;
+}
+
+.hot-line-meta-content h3{
+ text-transform: uppercase;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ padding-bottom: 0px;
+ margin-bottom: -7px;
+ letter-spacing: 1px;
+}
+
+.hot-line img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.hr-line {
+  width: 100%;
+  background: #dfe4ea;
+  height: 1px;
+  margin-top: 10px;
+}
+
+.copyright-text {
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0 3%;
+  margin-top: 10px;
+}
+
+@media (max-width: 1088px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer ul{
+    padding-top: 10px !important;
+  }
+}
+
 /*footer */
 
 
@@ -1024,3 +1130,4 @@ border-radius: 15px;
   padding: 97px 0px;
 }
 /*location*/
+
