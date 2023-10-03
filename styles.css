@@ -182,25 +182,25 @@ border-radius: 15px;
   font-family: Montserrat;
 }
 
-.carousel-control-next-icon:after
+#slider .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 55px;
   color: #0776BD;
 }
 
-.carousel-control-prev-icon:after {
+#slider .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
   color:#0776BD;
 }
-.carousel-indicators [data-bs-target]{
+#slider .carousel-indicators [data-bs-target]{
   background-color: #0776bd;
 }
-.carousel-control-prev, .carousel-control-next {
+#slider .carousel-control-prev, #slider .carousel-control-next {
   display: none;
 }
-.slider-content{
+#slider .slider-content{
   content: "";
   display: inline-block;
   width: 100%;
@@ -214,7 +214,7 @@ border-radius: 15px;
 }
 
 @media (min-width: 576px) { 
-    .slider-content{
+  #slider .slider-content{
       content: "";
       display: inline-block;
       width: 100%;
@@ -230,7 +230,7 @@ border-radius: 15px;
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .slider-content{
+  #slider .slider-content{
     content: "";
     display: inline-block;
     width: 100%;
@@ -246,7 +246,7 @@ border-radius: 15px;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .slider-content{
+  #slider .slider-content{
       content: "";
       display: inline-block;
       width: 100%;
@@ -262,7 +262,7 @@ border-radius: 15px;
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .slider-content{
+  #slider .slider-content{
     content: "";
     display: inline-block;
     width: 100%;
@@ -278,7 +278,7 @@ border-radius: 15px;
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-  .slider-content{
+  #slider .slider-content{
     content: "";
     display: inline-block;
     width: 100%;
@@ -290,7 +290,7 @@ border-radius: 15px;
     /* -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%); */
     /* clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%); */
   }
-  .slider-content .title1{
+  #slider .slider-content .title1{
     font-size: 56px;
   }
  }
@@ -701,26 +701,7 @@ border-radius: 15px;
 }
 /*review */
 
-/*counter */
-#counter{
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  /* height: 197px; */
-  background-color: #0776BD;
-  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 34px;
-  margin: 91px 0px;
-}
-#counter .clone-copy{
-  top: 39px;
-  font-size: 70px;
-  position: relative;
-  opacity: 0.09000000357627869;
-}
-/*counter */
+
 /*blog */
 #blog{
   padding: 86px 0px;
@@ -752,34 +733,46 @@ border-radius: 15px;
 }
 /*blog */
 /*subscribe */
-/* #subscribe{
-  height: 50px;
-} */
 #subscribe{
-  position: relative;
-  top: 68px;
+  padding: 128px 0;
+  background-image: url('images/subscribe-background.png')  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-#subscribe .subscribe-form{
-  background: linear-gradient(131deg, #0776BD 0%, #60BB46 100%);
-  /* height: 148px; */
+#subscribe h1{
   color: white;
-  padding: 37px 73px;
-}
-#subscribe .subscribe-title{
-  color: #FFF;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 35.5px; /* 118.333% */
-  letter-spacing: 0.5px;
 }
 /*subscribe */
 
+/*get-in-touch */
+#get-in-touch{
+  padding: 128px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#get-in-touch .form-control {
+  padding: 1.375rem 0.75rem;
+}
+#get-in-touch .card{
+  border-radius: 15px;
+  background: #F5F5F5;
+  border: none;
+}
+#get-in-touch .service_card i{
+  font-size: 25px;
+  padding: 13px;
+  color: white;
+  background: linear-gradient(225.73deg,rgba(68, 200, 245, 1) 0%,rgba(138, 115, 173, 1) 100%); /* Define your gradient colors */
+}
+/*get-in-touch */
+
 /*footer */
 #footer{
-  padding-top: 166px;
+  padding-top: 133px ;
   padding-bottom: 67px;
-  background: #2E2D2D;
+  background: linear-gradient(179deg, #1E1E1E 0%, #6C5CA8 100%);
   color: #FFF;
   font-family: "Montserrat", sans-serif;
 }
@@ -1026,3 +1019,8 @@ border-radius: 15px;
   color:rgba(68, 200, 245, 1);
  }
 /* why-patient-choose */
+/*location*/
+#location{
+  padding: 97px 0px;
+}
+/*location*/
