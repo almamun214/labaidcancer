@@ -1,0 +1,30 @@
+.appointment-one{position:relative;z-index:9;margin-top:85px;padding-bottom:180px;}
+.appointment-one .inner-container{border-radius:5px;background-color:white;-webkit-box-shadow:0px 3px 35px 0px rgba(0, 0, 0, 0.15);box-shadow:0px 3px 35px 0px rgba(0, 0, 0, 0.15);padding:50px;padding-bottom:35px;}
+.appointment-one__title{margin:0;color:#0f4469;font-family:"Source Sans Pro", sans-serif;font-size:24px;font-weight:bold;margin-bottom:20px;}
+.appointment-one__label{margin:0;font-size:18px;color:#0f4469;font-weight:400;margin-bottom:20px;}
+.appointment-one__form-group{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:25px;}
+.appointment-one__icon{width:45px;height:50px;border:1px solid #CACACA;border-right:0;border-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0;text-align:center;}
+.appointment-one__icon i{line-height:50px;color:#0f4469;font-size:18px;}
+.appointment-one__field{outline:none;padding-left:20px;height:50px;border-radius:5px;border-top-left-radius:0;border-bottom-left-radius:0;border:1px solid #CACACA;width:calc(100% - 45px);font-size:17px;color:#0f4469;}
+.appointment-one__switch-wrap{width:calc(100% - 45px);display:-webkit-box;display:-ms-flexbox;display:flex;}
+.appointment-one__switch{border:none;outline:none!important;cursor:pointer;background-color:transparent;color:#0f4469;width:50%;height:50px;border:1px solid #CACACA;font-size:17px;color:#0f4469;}
+.appointment-one__switch.active,.appointment-one__switch:active,.appointment-one__switch:focus{border-color:#0384CE;color:#fff;background-color:#0384CE;}
+.appointment-one__switch:last-child{border:1px solid #CACACA;border-left:0;border-radius:5px;border-top-left-radius:0;border-bottom-left-radius:0;}
+.appointment-one__btn{margin-bottom:25px;width:100%;-webkit-box-shadow:0px 3px 15px 0px rgba(255, 68, 0, 0.4);box-shadow:0px 3px 15px 0px rgba(255, 68, 0, 0.4);}
+.appointment-one .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){width:100%;}
+.appointment-one .bootstrap-select > .dropdown-toggle{outline:none;padding:0;padding-left:20px;border-radius:5px;background-color:#fff;border:1px solid #CACACA;font-size:17px;color:#0f4469;height:50px;}
+.appointment-one .dropdown-toggle::after{border:none;content:'\e313';font-family:'Material Icons';font-size:24px;color:#0f4469;vertical-align:1px;margin-right:15px;}
+.appointment-one .bootstrap-select .dropdown-toggle .filter-option-inner-inner{padding:10px 0;}
+.appointment-one__appointment-page{padding-bottom:110px;}
+@media (max-width: 991px){
+.appointment-one{padding-bottom:100px;}
+}
+@media (max-width: 575px){
+.appointment-one{margin-top:0;padding-top:100px;}
+}
+@media (max-width: 375px){
+.appointment-one .inner-container{padding-left:30px;padding-right:30px;}
+}
+
+
+

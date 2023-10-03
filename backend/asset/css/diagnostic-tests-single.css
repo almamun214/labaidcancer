@@ -1,0 +1,20 @@
+.test-details{padding: 50px 0 0;}
+.test-details .image-slider .owl-nav{margin:0;position:absolute;top:50%;width:100%;margin-top:-25px;}
+.test-details .image-slider .owl-carousel .owl-nav div{height:50px;width:50px;line-height:40px;background:#fff;color:#6e2c8c;position:absolute;margin:0;border-radius:100%;font-size:20px;text-align:center;-webkit-transition:all 0.4s ease;-moz-transition:all 0.4s ease;transition:all 0.4s ease;box-shadow:0px 0px 10px #0000001a;}
+.test-details .image-slider .owl-carousel .owl-nav div:hover{color:#fff;background:#6e2c8c;}
+.test-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-prev{left:20px;}
+.test-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-next{right:20px;}
+.test-details .image-slider img{padding: 30px 0 0;}
+.test-details .test-information{padding: 30px 0 50px;}
+.test-details .test-information .table tbody tr{transition: 0.3s ease-in-out;}
+.test-details .test-information .table tbody tr:hover{background-color: rgba(110, 44, 140, 1);color:#fff;}
+.test-details .test-information .table td,.test-details .test-information .table th{vertical-align: middle;}
+
+/*.table{width:100%!important;}*/
+/*.table td{width:auto!important;}*/
+
+@media only screen and (max-width: 767px){
+.test-details .image-slider .owl-nav{display:none;}
+}
+
+
