@@ -13,6 +13,9 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
 .blue {
   color: #0776bd;
@@ -43,6 +46,7 @@ body {
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 
 .navbar-brand img {
   width: 200px;
@@ -441,6 +445,12 @@ body {
 @media (max-width: 768px) {
   .service-cards {
     display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 450px) {
+  .service-cards {
+    display: grid;
     grid-template-columns: auto;
   }
 }
@@ -611,6 +621,10 @@ table tr th {
   height: 2952px;
   background-size: cover;
   background-image: url("images/doctor_background.png");
+}
+
+#doctor .doctors-service_background {
+  height: 900px;
 }
 
 @media (min-width: 353px) {
