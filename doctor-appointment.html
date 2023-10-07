@@ -331,75 +331,225 @@
     <section id="doctor-profile">
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-              <div class="profile-card">
-                <img
-                  src="../backend/asset/images/team/team-1-1.jpg"
-                  class="img-fluid doctor-img"
-                  alt="doctor name"
-                />
-                <h3 class="doctor-name">Prof. Dr. AFM Anwar Hossain</h3>
-                <p class="descgnation">Senior Consultant</p>
-                <p class="descgnation-oc">Surgical Oncology</p>
-                <button data-bs-toggle="modal" data-bs-target="#modalFullscreen"  class="book-appointment-btn">
-                  Book Appointment
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="modalFullscreen" tabindex="-1" aria-labelledby="modalFullscreenLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-fullscreen">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="modalFullscreenLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        ...
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+          <div class="col-md-4">
+            <div class="profile-card">
+              <img
+                src="../backend/uploads/doctor/b43be292f5abc7905782087583975f1d.jpg"
+                class="img-fluid doctor-img"
+                alt="doctor name"
+              />
+              <h3 class="doctor-name">Prof. Dr. AFM Anwar Hossain</h3>
+              <p class="descgnation">Senior Consultant</p>
+              <p class="descgnation-oc">Surgical Oncology</p>
+              <button
+                data-bs-toggle="modal"
+                data-bs-target="#modalFullscreen"
+                class="book-appointment-btn"
+              >
+                Book Appointment
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modalFullscreen"
+                tabindex="-1"
+                aria-labelledby="modalFullscreenLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div
+                      class="modal-header"
+                      style="
+                        background-image: linear-gradient(
+                          274deg,
+                          rgb(72, 198, 241) 0%,
+                          rgb(110, 89, 166) 100%
+                        );
+                      "
+                    >
+                      <h1
+                        class="modal-title fs-5 mx-5"
+                        id="modalFullscreenLabel"
+                      >
+                        Book Appointment
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close me-3 text-light"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
                     </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="row mt-4 mb-4">
+                          <div class="col-md-12 d-flex">
+                            <img
+                              src="../backend/uploads/doctor/b43be292f5abc7905782087583975f1d.jpg"
+                              class="img-fluid"
+                              alt="doctor name"
+                              style="
+                                width: 250px;
+                                height: auto;
+                                border-radius: 7px;
+                                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+                              "
+                            />
+                            <div class="ms-5">
+                              <h4 style="color: purple">
+                                Prof. Dr. AFM Anwar Hossain
+                              </h4>
+                              <h5>Senior Consultant</h5>
+                              <h5 class="descgnation-oc">Surgical Oncology</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <form class="row g-3">
+                            <div class="col-md-6">
+                              <label for="name" class="form-label"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                placeholder="Enter Full name"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <label for="email" class="form-label"
+                                >Email</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="email@example.com"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <label for="gender" class="form-label"
+                                >Your Gender</label
+                              >
+                              <select id="gender" class="form-select">
+                                <option>Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                              </select>
+                            </div>
+                            <div class="col-md-6">
+                              <label for="district" class="form-label"
+                                >District</label
+                              >
+                              <select id="district" class="form-select">
+                                <option selected>Select District</option>
+                                <option value="">Dhaka</option>
+                                <option value="">Tangail</option>
+                                <option value="">Manikganj</option>
+                                <option value="">Faridpur</option>
+                              </select>
+                            </div>
+                            <div class="col-md-6">
+                              <label for="phone" class="form-label"
+                                >Phone Number</label
+                              >
+                              <input
+                                type="text"
+                                inputmode="numeric"
+                                class="form-control"
+                                id="phone"
+                                placeholder="Enter Valid Phone Number"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <label for="date-of-birth" class="form-label"
+                                >Date of Birth</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="date-of-birth"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <label for="appointment-date" class="form-label"
+                                >Appointment Date</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control"
+                                id="appointment-date"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <label for="remarks" class="form-label"
+                                >Remarks</label
+                              >
+                              <textarea
+                                name="remarks"
+                                id="remarks"
+                                class="form-control"
+                                cols="30"
+                                rows="5"
+                              ></textarea>
+                            </div>
+                            <div
+                              class="d-grid gap-2 d-md-flex justify-content-md-end mt-3"
+                            >
+                              <button
+                                type="submit"
+                                class="book-appointment-btn"
+                              >
+                                Submit Request
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
                     </div>
-                </div>
-              </div>
-              
-            </div>
-            <div class="col-md-8">
-              <div class="about-doctor">
-                <div class="biography">
-                  <h5>Biggraphy</h5>
-                  <p>
-                    <strong>Prof. Dr. AFM Anwar Hossain</strong> MBBS, FCPS, MS
-                    Fellow- Surgical Oncology (Tata Memorial Hospital, Mumbai,
-                    India) Trained in Surgical Oncology (Memorial Sloan Kettering
-                    Cancer Centre, New York, USA) Former- Professor of Surgical
-                    Oncology and Head of the Department National Institute of Cancer
-                    Research and Hospital (NICRH) Mohakhali , Dhaka. He has 20 years
-                    of experience in the field of Cancer Surgery. He has special
-                    interest in the treatment and management of Breast, Stomach,
-                    Colorectal, and Bone Cancer.
-                  </p>
-                </div>
-                <div class="education">
-                  <h5>Education</h5>
-                  <p>
-                    MBBS, FCPS, MS Fellow- Surgical Oncology (Tata Memorial
-                    Hospital, Mumbai, India) Trained in Surgical Oncology (Memorial
-                    Sloan Kettering Cancer Centre, New York, USA)
-                  </p>
-                </div>
-                <div class="work-sehedule">
-                  <h5>Work Sehedule</h5>
-                  <div class="sehedule-list">
-                    <div class="shedule-date">Sunday 6 PM-8 PM</div>
-                    <div class="shedule-date">Tuesday 6 PM-8 PM</div>
-                    <div class="shedule-date">Thursday 6 PM-8 PM</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-md-8">
+            <div class="about-doctor">
+              <div class="biography">
+                <h5>Biggraphy</h5>
+                <p>
+                  <strong>Prof. Dr. AFM Anwar Hossain</strong> MBBS, FCPS, MS
+                  Fellow- Surgical Oncology (Tata Memorial Hospital, Mumbai,
+                  India) Trained in Surgical Oncology (Memorial Sloan Kettering
+                  Cancer Centre, New York, USA) Former- Professor of Surgical
+                  Oncology and Head of the Department National Institute of
+                  Cancer Research and Hospital (NICRH) Mohakhali , Dhaka. He has
+                  20 years of experience in the field of Cancer Surgery. He has
+                  special interest in the treatment and management of Breast,
+                  Stomach, Colorectal, and Bone Cancer.
+                </p>
+              </div>
+              <div class="education">
+                <h5>Education</h5>
+                <p>
+                  MBBS, FCPS, MS Fellow- Surgical Oncology (Tata Memorial
+                  Hospital, Mumbai, India) Trained in Surgical Oncology
+                  (Memorial Sloan Kettering Cancer Centre, New York, USA)
+                </p>
+              </div>
+              <div class="work-sehedule">
+                <h5>Work Sehedule</h5>
+                <div class="sehedule-list">
+                  <div class="shedule-date">Sunday 6 PM-8 PM</div>
+                  <div class="shedule-date">Tuesday 6 PM-8 PM</div>
+                  <div class="shedule-date">Thursday 6 PM-8 PM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -600,8 +750,6 @@
     <!-- Start:: Footer -->
     <section id="footer">
       <div class="footer-container">
-       
-
         <div class="footer-logo">
           <img src="./images/logo-footer.png" alt="" />
         </div>
@@ -686,7 +834,11 @@
         Centre
       </p>
     </section>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -699,11 +851,10 @@
     <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
 
     <script>
-    
-        // $('.book-appointment-btn').click(function (e) { 
-        //     $('.modalFullscreen').modal().show();
-            
-        // });
+      // $('.book-appointment-btn').click(function (e) {
+      //     $('.modalFullscreen').modal().show();
+
+      // });
 
       if (document.getElementById("vid1")) {
         videojs("vid1").ready(function () {
