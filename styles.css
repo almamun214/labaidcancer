@@ -1263,19 +1263,19 @@ table tr th {
 /* doctor appointment page css */
 #doctor-profile {
   display: flex;
-  min-height: 720px;
+  min-height: 700px;
   padding: 0 4%;
   background-image: linear-gradient(to bottom right, #9AECDB, #dfe4ea);
   width: 100%;
   position: relative;
 }
 
-.profile-card {
+.profile-card {  
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   position: absolute;
-  top: 50px;
+  top: 120px;
   border-radius: 8px;
   margin-left: 60px;
   width: 350px;
@@ -1327,8 +1327,9 @@ table tr th {
 }
 
 .about-doctor {
-  margin-left: 10%;
-  padding-top: 20%;
+  position: absolute;
+  margin-left: 5%;
+  padding-top: 12%;
   padding-right: 5%;
 }
 
@@ -1347,8 +1348,62 @@ table tr th {
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 981px) {
+  
   .profile-card {
-    margin-left: 0px;
+    margin-left: -10px;
+    top: 30px;
+  }
+  .about-doctor {
+    top: -150px;
+  }
+}
+@media (max-width: 912px) {
+  #doctor-profile {
+    height: 1200px
+  }
+  .profile-card {
+    margin-left: -10px;
+    width: 90%;
+    top: 30px;
+  }
+  .about-doctor {
+    top: 660px;
+    margin-left: -250px;
+  }
+}
+
+@media (max-width: 768px) {
+  #doctor-profile {
+    height: 1200px
+  }
+  .profile-card {
+    margin-left: -10px;
+    width: 90%;
+    top: 30px;
+  }
+  .about-doctor {
+    top: 600px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 668px) {
+  .about-doctor {
+    top: 600px;
+  }
+  .sehedule-list > .shedule-date{
+    flex-direction: column;
+  }
+}
+@media (max-width: 560px) {
+  .about-doctor {
+    top: 500px;
+  }
+}
+
+@media (max-width: 380px) {
+  .about-doctor {
+    top: 400px;
   }
 }
