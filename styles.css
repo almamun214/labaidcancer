@@ -37,8 +37,8 @@ a {
 
 .sticky-active {
   position: fixed !important;
-  top: 0;
-  left: 12.5%;
+  top: 0%;
+  left: 6%;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
@@ -1264,8 +1264,9 @@ table tr th {
 #doctor-profile {
   display: flex;
   min-height: 700px;
-  padding: 0 4%;
-  background-image: linear-gradient(to bottom right, #9AECDB, #dfe4ea);
+  padding: 0 4%;  
+  background: linear-gradient(189deg, rgba(73, 194, 238, 0.20) 13.48%, rgba(108, 92, 168, 0.20) 87.25%);
+  mix-blend-mode: multiply;
   width: 100%;
   position: relative;
 }
