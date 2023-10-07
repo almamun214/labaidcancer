@@ -37,8 +37,8 @@ a {
 
 .sticky-active {
   position: fixed !important;
-  top: 0;
-  left: 12.5%;
+  top: 0%;
+  left: 6%;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
@@ -46,7 +46,6 @@ a {
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 
 .navbar-brand img {
   width: 200px;
@@ -221,7 +220,7 @@ a {
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
 /* nav */
 
@@ -444,7 +443,6 @@ a {
     display: grid;
     grid-template-columns: auto auto;
   }
-  
 }
 @media (max-width: 768px) {
   .service-cards {
@@ -1265,12 +1263,17 @@ table tr th {
   display: flex;
   min-height: 700px;
   padding: 0 4%;
-  background-image: linear-gradient(to bottom right, #9AECDB, #dfe4ea);
+  background: linear-gradient(
+    189deg,
+    rgba(73, 194, 238, 0.2) 13.48%,
+    rgba(108, 92, 168, 0.2) 87.25%
+  );
+  mix-blend-mode: multiply;
   width: 100%;
   position: relative;
 }
 
-.profile-card {  
+.profile-card {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -1333,7 +1336,9 @@ table tr th {
   padding-right: 5%;
 }
 
-.about-doctor .biography h5, .education h5, .work-sehedule h5 {
+.about-doctor .biography h5,
+.education h5,
+.work-sehedule h5 {
   color: purple;
   font-weight: 600;
 }
@@ -1349,7 +1354,6 @@ table tr th {
 }
 
 @media (max-width: 981px) {
-  
   .profile-card {
     margin-left: -10px;
     top: 30px;
@@ -1360,7 +1364,7 @@ table tr th {
 }
 @media (max-width: 912px) {
   #doctor-profile {
-    height: 1200px
+    height: 1200px;
   }
   .profile-card {
     margin-left: -10px;
@@ -1375,7 +1379,7 @@ table tr th {
 
 @media (max-width: 768px) {
   #doctor-profile {
-    height: 1200px
+    height: 1200px;
   }
   .profile-card {
     margin-left: -10px;
@@ -1392,7 +1396,7 @@ table tr th {
   .about-doctor {
     top: 600px;
   }
-  .sehedule-list > .shedule-date{
+  .sehedule-list > .shedule-date {
     flex-direction: column;
   }
 }
@@ -1406,4 +1410,10 @@ table tr th {
   .about-doctor {
     top: 400px;
   }
+}
+
+/* ==========  Awards & Recognition =========== */
+.purple-clr {
+  color: rgb(138, 115, 173);
+  font-weight: 700;
 }
