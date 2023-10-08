@@ -43,8 +43,8 @@
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('winningOverCancer'); ?>"><div class="sub-menu-text">Winning Cancer</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('centresofexcellence'); ?>"><div class="sub-menu-text">Centers of Excellence</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('department'); ?>"><div class="sub-menu-text">Department</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('comprehensive_care'); ?>"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('diagnosis_treatment'); ?>"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">FAQ</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Contact With Us</div></a></li>
                     </ul>
@@ -70,7 +70,7 @@
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">News & Article</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Award Recognition</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('awards_recognition'); ?>"><div class="sub-menu-text">Award Recognition</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Gallary</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Healthtips</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Career</div></a></li>
