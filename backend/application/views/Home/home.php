@@ -36,7 +36,7 @@
 <section id="main-feature">
     <div class="container" style="position: relative; top: -92px;">
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6 p-4  ">
+            <div class="col-lg-4 col-md-6 col-sm-6 p-4 ">
                 <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;">
               <span>
                 <h1><i class="fa-solid fa-user-doctor" style=" padding-left:16px;"></i></h1>
