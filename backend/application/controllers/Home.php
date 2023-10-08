@@ -124,7 +124,13 @@ class Home extends CI_Controller {
         $data['headimage']= $this->mc_model->single_page_header_slug('technology'); 
         $this->tpl->client($data);
     }
-
+//al
+    function winningOverCancer() {
+        $data['title'] = 'Winning Over Cancer';
+        $data['body'] = 'Home/winningOverCancer';
+       // $data['gq']= $this->mc_model->single_page_content_slug('messageOfmd');
+        $this->tpl->client($data);
+    }
     function messageOfmd() {
         $data['title'] = 'Message Of Managing Director';
         $data['body'] = 'Home/messageOfmd';
