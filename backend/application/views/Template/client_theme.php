@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Labaid Cancer Hospital</title>
+    <title><?php if(current_url() !=base_url()){echo @$title." ||";} ?>  Labaid Cancer Hospital and Super Speciality Center || Winning Cancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/styles.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/style-sagor.css">
@@ -11,7 +11,10 @@
     <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/29012c8d5d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>asset/images/resources/icon.png">
 </head>
+
+
 
 <body>
 <!-- Start:: Navbar -->
@@ -26,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav ">
                 <li class="nav-item ms-3 active">
-                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link" aria-current="page" href="/">HOME</a>
                 </li>
                 <li class="nav-item dropdown ms-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,13 +38,13 @@
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Labaid Cancer Hospital</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('messageOfchairman'); ?>"><div class="sub-menu-text">Message Of Chairman</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Message of Managing Director </div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Management Team</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Winning Cancer</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Centers of Excellence</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Department</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('messageofmd'); ?>"><div class="sub-menu-text">Message of Managing Director </div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('management'); ?>"><div class="sub-menu-text">Management Team</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('winningOverCancer'); ?>"><div class="sub-menu-text">Winning Cancer</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('centresofexcellence'); ?>"><div class="sub-menu-text">Centers of Excellence</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('department'); ?>"><div class="sub-menu-text">Department</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('comprehensive_care'); ?>"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('diagnosis_treatment'); ?>"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">FAQ</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Contact With Us</div></a></li>
                     </ul>
@@ -67,7 +70,7 @@
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">News & Article</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Award Recognition</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('awards_recognition'); ?>"><div class="sub-menu-text">Award Recognition</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Gallary</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Healthtips</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Career</div></a></li>
