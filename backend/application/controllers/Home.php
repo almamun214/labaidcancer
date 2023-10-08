@@ -189,13 +189,20 @@ class Home extends CI_Controller {
         $this->tpl->client($data);
     }
 
+    function awards_recognition() {
+        $data['title'] = 'Diagnosis and Treatment';
+        $data['body'] = 'Home/awards_recognition';
+
+        $this->tpl->client($data);
+    }
     function diagnosis_treatment() {
         $data['title'] = 'Diagnosis and Treatment';
         $data['body'] = 'Home/diagnosis_treatment';
-        $data['headimage']= $this->mc_model->single_page_header_slug('diagnosis_treatment'); 
+        $data['headimage']= $this->mc_model->single_page_header_slug('diagnosis_treatment');
         $data['general_question']=$this->gq_mod->diagnosistreatmentlist();
         $this->tpl->client($data);
     }
+
 
     function service_we_offer() {
         $data['title'] = 'Service We Offer';
