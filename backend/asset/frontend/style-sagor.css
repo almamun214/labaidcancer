@@ -80,6 +80,7 @@
   }
   /* value */
 
+  /* chairman */
   #chairman{
     padding-bottom: 150px;
   }
@@ -98,7 +99,87 @@
     border-radius: 25px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    width: 430px;
-    height: 580px;
     flex-shrink: 0;
+    overflow: hidden;
   }
+   /* chairman */
+
+     /* md */
+  #md{
+    padding-bottom: 150px;
+  }
+  #md .shape1{
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    width: 187.157px;
+    height: 429.074px;
+    transform: rotate(-120deg);
+    flex-shrink: 0;
+    background: linear-gradient(252deg, #49C2EE 0%, #6C5CA8 100%);
+    mix-blend-mode: multiply;
+  }
+  #md .profile{
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+   /* md */
+  /* management */
+  #management{
+    padding-bottom: 150px;
+  }
+  #management .shape1{
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    width: 187.157px;
+    height: 429.074px;
+    transform: rotate(-120deg);
+    flex-shrink: 0;
+    background: linear-gradient(252deg, #49C2EE 0%, #6C5CA8 100%);
+    mix-blend-mode: multiply;
+  }
+  #management .profile{
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+   /* management */
+  /* winning-cancer */
+  #winning-cancer{
+    padding-bottom: 150px;
+  }
+  #winning-cancer .shape1{
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    width: 187.157px;
+    height: 429.074px;
+    transform: rotate(-120deg);
+    flex-shrink: 0;
+    background: linear-gradient(252deg, #49C2EE 0%, #6C5CA8 100%);
+    mix-blend-mode: multiply;
+  }
+  #winning-cancer .profile{
+    border-radius: 25px;
+    background: url(<path-to-image>), rgb(255, 255, 255) 50% / cover no-repeat;
+    box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.25);
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  
+  #winning-cancer .title1{
+    color: #49C2EE;
+    font-weight: 300!important;
+  }
+  #winning-cancer .right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* winning-cancer */
