@@ -6,11 +6,13 @@
     <title>Labaid Cancer Hospital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/styles.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/style-sagor.css">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/29012c8d5d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 <!-- Start:: Navbar -->
 <nav id="navbar" class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
@@ -32,7 +34,7 @@
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Labaid Cancer Hospital</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Message Of Chairman</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('messageOfchairman'); ?>"><div class="sub-menu-text">Message Of Chairman</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Message of Managing Director </div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Management Team</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Winning Cancer</div></a></li>
