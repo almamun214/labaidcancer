@@ -1470,3 +1470,43 @@ table tr th {
 .diagnostics-row  .description {
   width: 70%;
 }
+
+/* ====== Lung Cancer ====== */
+.lung-cancer-card {
+  background-color: #fff;
+  box-shadow:  0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  padding: 20px;
+  right: 30px;
+  transition: all 0.3s;
+}
+
+.lung-cancer-card:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    140deg,
+    rgb(72, 198, 241) 0%,
+    rgb(110, 89, 166) 100%
+  );
+}
+
+
+.lung-cancer-card img {
+  width: 30px;
+}
+
+.lung-cancer-card-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.lung-cancer-content-list .lung-cancer-content-item {
+  margin-left: -10px;
+  padding: 10px;
+  width: 90%;
+}
