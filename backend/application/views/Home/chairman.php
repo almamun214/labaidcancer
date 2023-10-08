@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="col-md-8">
-            <h2 class="title2">Dr. A.M. SHAMIM</h2>
+            <h2 class="title2">Dr. A.M. SHAMIM </h2>
             <h5 class="title1">Chairman, Labaid Cancer Hospital & Super Speciality Centre</h5>
             <br>
             <div style="text-align: justify;">
@@ -30,6 +30,7 @@
                 <p>
                     As a responsible corporate citizen we have highest level commitment to environment and safety regulations. We believe our effort is making the most meaningful difference for the people and the country.
                 </p>
+                <p></p>
             </div>
 
         </div>
