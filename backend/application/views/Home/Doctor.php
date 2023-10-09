@@ -30,18 +30,19 @@
 </section>
 
 <!-- Start:: Doctors -->
+
 <section id="doctor">
-    <!--    <div class="" style="padding: 0 10%; position: relative; top: -150px; max-width: 600px;">-->
-    <!--        <select class="form-select doctor-select" aria-label="Default select example">-->
-    <!--            <option>Select Department</option>-->
-    <!--            <option value="1">Al Mamun</option>-->
-    <!--            <option value="2">Sujon Ahmed</option>-->
-    <!--            <option value="3">Raduan Islam</option>-->
-    <!--        </select>-->
-    <!--    </div>-->
+       <div class="" style="padding: 0 10%; position: relative; top: -150px; max-width: 600px;">
+           <select name="department" id="department" onchange="getDoctors()" class="form-select doctor-select" aria-label="Default select example">
+               <option value="">Select Department</option>
+                <?php foreach ($department as $dpt): ?>
+                    <option value="<?php echo $dpt->dd_id; ?>"><?php echo $dpt->dd_name; ?></option>
+                <?php endforeach; ?>
+           </select>
+       </div>
     <div class="doctors-service_background container-fluid">
         <div class="container" style="height: 16px; position: relative; top: -92px">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" id="fulltable">
                 <?php foreach ($doctor as $doc): ?>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                     <div class="card text-center align-items-center mb-5" style="min-width: 12rem">
@@ -62,3 +63,46 @@
         </div>
     </div>
 </section>
+
+
+<script src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
+
+<script>
+    // $( document ).ready(function() {
+    //     callDatatable("dbtable");
+    // });
+
+
+    function getDoctors() {
+        $("#fulltable").empty();
+        $("#all_doc").show();
+        var content = '';
+        var department = $("#department option:selected").val();
+        var departmentName = $("#department option:selected").text();
+        $.ajax({
+            type: 'POST',
+            data: {department: department},
+            url: 'doctors/GetDoctorList',
+            dataType: 'json',
+            success: function (response) {
+                var count = 1;
+                if(response.length >0){
+                    $.each(response, function (index, value) {
+                        // var sn = count++;
+                        content += "<div class='col-lg-3 col-md-6 col-sm-12'><div class='team-one__single'> <div class='team-one__image'><img src='"+value.d_picture+"' alt='"+value.d_name+"' class='img-fluid' style='height:300px;' /></div><div class='team-one__content'> <div class='app-btns'><a class='team-one__appointment' href='doctor-appointment/"+value.d_slug+"'>Book Appointment</a></div><h3 class='team-one__title'><a href='doctor-details/"+value.d_slug+"'>"+value.d_name+"</a></h3><p class='team-one__speciality'>"+departmentName+"</p></div></div></div>";
+                    });
+                }
+                else{
+                    content += "<div class='alert alert-warning' role='alert'>No Doctor found at "+departmentName+" department.</div>"
+                }
+
+                document.getElementById("fulltable").innerHTML = content;
+                // callDatatable("dbtable");
+            }
+        });
+
+
+    }
+
+</script>
+
