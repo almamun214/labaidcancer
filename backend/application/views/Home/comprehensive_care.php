@@ -1,4 +1,5 @@
-<div class="banner-wrapper text-center">
+<div class="banner-wrapper text-center" style="position: relative;
+    top: -110px;">
     <img src="<?php echo base_url($headimage['pgb_image']); ?>" class="img-fluid img-100" alt="Package">
 </div>
 
@@ -13,16 +14,16 @@ if (base_url() != current_url()) {
     <nav aria-label="breadcrumb" class="container">
         <ol class="breadcrumb "><!-- justify-content-center-->
 
-            <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <!-- <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li> -->
             <?php
-            if (!empty($uri1) & empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            } else {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($uri1) . "</a></li>";
-            }
-            if (!empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            }
+        //    if (!empty($uri1) & empty($uri2)) {
+       //         echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
+      //      } else {
+     //           echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($uri1) . "</a></li>";
+       //     }
+         //   if (!empty($uri2)) {
+        //        echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
+         //   }
             ?>
 
         </ol>
@@ -37,7 +38,7 @@ if (base_url() != current_url()) {
     </div>
 </div>
 
-<section class="cancer-details">
+<section class="cancer-details pb-5">
     <div class="container">
         <div class="row">
             <?php $counter = 1;
