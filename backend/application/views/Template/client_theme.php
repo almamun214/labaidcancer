@@ -21,7 +21,7 @@
 
 <body>
 <!-- Start:: Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="<?php echo base_url(); ?>asset/frontend/images/LCH_logo.png" class="img-fluid" alt="LCH" >
@@ -288,30 +288,27 @@
         <div class="footer-about-us">
             <h5>About Us</h5>
             <ul>
-                <li>Labaid Cancer Hospital</li>
-                <li>Message Of Chairman</li>
-                <li>Message Of Managing Director</li>
-                <li>Management Team</li>
-                <li>Winning Cancer</li>
-                <li>Centers Of Excellence</li>
-                <li>Our Comprehensive Care Team</li>
-                <li>Diagnosis & Treatment</li>
-                <li>FAQ</li>
-                <li>Contact With Us</li>
+                <li> <a href="<?php echo base_url('about'); ?>">Labaid Cancer Hospital</a> </li>
+                <li> <a href="<?php echo base_url('messageOfchairman'); ?>"> Message Of Chairman </a> </li>
+                <li> <a href="<?php echo base_url('messageofmd'); ?>"> Message Of Managing Director</a> </li>
+                <li> <a href="<?php echo base_url('management'); ?>">Management Team</a> </li>
+                <li> <a href="<?php echo base_url('winningOverCancer'); ?>">Winning Cancer</a> </li>
+                <li> <a href="<?php echo base_url('centresofexcellence'); ?>">Centers Of Excellence</a> </li>
+                <li> <a href="<?php echo base_url('comprehensive_care'); ?>">Our Comprehensive Care Team</a> </li>
+
+                <li> <a href="<?php echo base_url('diagnosis_treatment'); ?>">Diagnosis & Treatment</a> </li>
+                <li> <a href="<?php echo base_url('faq'); ?>">FAQ</a> </li>
+
             </ul>
         </div>
 
         <div class="footer-services">
             <h5>Services</h5>
             <ul>
-                <li>OPD</li>
-                <li>Chemotherapy & Day Care</li>
-                <li>Diagnostic Services</li>
-                <li>Pharmacy</li>
-                <li>Radiotherapy</li>
-                <li>Nuclear Medicine</li>
-                <li>Diagnostic Test</li>
-                <li>Package</li>
+                <li> <a href="">Doctor</a> </li>
+
+                <li> <a href="">Diagnostic Test</a></li>
+
             </ul>
         </div>
 
