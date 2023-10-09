@@ -21,7 +21,7 @@
 
 <body>
 <!-- Start:: Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="<?php echo base_url(); ?>asset/frontend/images/LCH_logo.png" class="img-fluid" alt="LCH" >
