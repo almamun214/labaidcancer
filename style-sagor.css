@@ -202,3 +202,20 @@
     color: white;
   }
   /* department */
+  /* faq */
+  #faq{
+    padding-bottom: 92px;
+  }
+  #faq button{
+    color: var(--Violet, #8A73AD);
+    background:#F1F1F1;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+    letter-spacing: 0.5px;
+  }
+  #faq .accordion-body{
+    background:#F1F1F1;
+  }
+    /* faq */

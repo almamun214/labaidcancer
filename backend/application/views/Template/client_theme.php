@@ -12,6 +12,9 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/29012c8d5d.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="<?php echo base_url(); ?>asset/images/resources/icon.png">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/gallery/simplelightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+
 </head>
 
 
@@ -358,6 +361,10 @@
 <script src="<?php echo base_url(); ?>asset/frontend/scroll_element_detector.js"></script>
 <!-- <script src="video-js.css"></script> -->
 <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+<script src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
+<script src="<?php echo base_url(); ?>asset/gallery/simple-lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+
 
 
 
