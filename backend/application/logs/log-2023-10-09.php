@@ -1435,3 +1435,655 @@ DEBUG - 2023-10-09 07:06:27 --> Global POST, GET and COOKIE data sanitized
 INFO - 2023-10-09 07:06:27 --> Input Class Initialized
 INFO - 2023-10-09 07:06:27 --> Language Class Initialized
 ERROR - 2023-10-09 07:06:27 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:21:35 --> Config Class Initialized
+INFO - 2023-10-09 07:21:35 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:35 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:35 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:35 --> URI Class Initialized
+INFO - 2023-10-09 07:21:35 --> Router Class Initialized
+INFO - 2023-10-09 07:21:35 --> Output Class Initialized
+INFO - 2023-10-09 07:21:35 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:35 --> Input Class Initialized
+INFO - 2023-10-09 07:21:35 --> Language Class Initialized
+INFO - 2023-10-09 07:21:35 --> Loader Class Initialized
+INFO - 2023-10-09 07:21:35 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:21:35 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:21:35 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:21:35 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:21:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:21:35 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:21:35 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:21:35 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:21:35 --> Controller Class Initialized
+INFO - 2023-10-09 07:21:35 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "News_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:21:35 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:21:35 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/comprehensive_care.php
+INFO - 2023-10-09 07:21:35 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:21:35 --> Final output sent to browser
+DEBUG - 2023-10-09 07:21:35 --> Total execution time: 0.0847
+INFO - 2023-10-09 07:21:35 --> Config Class Initialized
+INFO - 2023-10-09 07:21:35 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:35 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:35 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:35 --> URI Class Initialized
+INFO - 2023-10-09 07:21:35 --> Router Class Initialized
+INFO - 2023-10-09 07:21:35 --> Output Class Initialized
+INFO - 2023-10-09 07:21:35 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:35 --> Input Class Initialized
+INFO - 2023-10-09 07:21:35 --> Language Class Initialized
+ERROR - 2023-10-09 07:21:35 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:21:50 --> Config Class Initialized
+INFO - 2023-10-09 07:21:50 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:50 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:50 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:50 --> URI Class Initialized
+INFO - 2023-10-09 07:21:50 --> Router Class Initialized
+INFO - 2023-10-09 07:21:50 --> Output Class Initialized
+INFO - 2023-10-09 07:21:50 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:50 --> Input Class Initialized
+INFO - 2023-10-09 07:21:50 --> Language Class Initialized
+INFO - 2023-10-09 07:21:50 --> Loader Class Initialized
+INFO - 2023-10-09 07:21:50 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:21:50 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:21:50 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:21:50 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:21:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:21:50 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:21:50 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:21:50 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:21:50 --> Controller Class Initialized
+INFO - 2023-10-09 07:21:50 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "News_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:21:50 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:21:50 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/comprehensive_care.php
+INFO - 2023-10-09 07:21:50 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:21:50 --> Final output sent to browser
+DEBUG - 2023-10-09 07:21:50 --> Total execution time: 0.0724
+INFO - 2023-10-09 07:21:50 --> Config Class Initialized
+INFO - 2023-10-09 07:21:50 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:50 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:50 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:50 --> URI Class Initialized
+INFO - 2023-10-09 07:21:50 --> Router Class Initialized
+INFO - 2023-10-09 07:21:50 --> Output Class Initialized
+INFO - 2023-10-09 07:21:50 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:50 --> Input Class Initialized
+INFO - 2023-10-09 07:21:50 --> Language Class Initialized
+ERROR - 2023-10-09 07:21:50 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:21:56 --> Config Class Initialized
+INFO - 2023-10-09 07:21:56 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:56 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:56 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:56 --> URI Class Initialized
+INFO - 2023-10-09 07:21:56 --> Router Class Initialized
+INFO - 2023-10-09 07:21:56 --> Output Class Initialized
+INFO - 2023-10-09 07:21:56 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:56 --> Input Class Initialized
+INFO - 2023-10-09 07:21:56 --> Language Class Initialized
+INFO - 2023-10-09 07:21:56 --> Loader Class Initialized
+INFO - 2023-10-09 07:21:56 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:21:56 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:21:56 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:21:56 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:21:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:21:56 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:21:56 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:21:56 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:21:56 --> Controller Class Initialized
+INFO - 2023-10-09 07:21:56 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "News_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:21:56 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:21:56 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/comprehensive_care.php
+INFO - 2023-10-09 07:21:56 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:21:56 --> Final output sent to browser
+DEBUG - 2023-10-09 07:21:56 --> Total execution time: 0.0497
+INFO - 2023-10-09 07:21:57 --> Config Class Initialized
+INFO - 2023-10-09 07:21:57 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:57 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:57 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:57 --> URI Class Initialized
+INFO - 2023-10-09 07:21:57 --> Router Class Initialized
+INFO - 2023-10-09 07:21:57 --> Output Class Initialized
+INFO - 2023-10-09 07:21:57 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:57 --> Input Class Initialized
+INFO - 2023-10-09 07:21:57 --> Language Class Initialized
+INFO - 2023-10-09 07:21:57 --> Loader Class Initialized
+INFO - 2023-10-09 07:21:57 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:21:57 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:21:57 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:21:57 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:21:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:21:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:21:57 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:21:57 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:21:57 --> Controller Class Initialized
+INFO - 2023-10-09 07:21:57 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "News_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:21:57 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:21:57 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/comprehensive_care.php
+INFO - 2023-10-09 07:21:57 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:21:57 --> Final output sent to browser
+DEBUG - 2023-10-09 07:21:57 --> Total execution time: 0.0719
+INFO - 2023-10-09 07:21:57 --> Config Class Initialized
+INFO - 2023-10-09 07:21:57 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:21:57 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:21:57 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:21:57 --> URI Class Initialized
+INFO - 2023-10-09 07:21:57 --> Router Class Initialized
+INFO - 2023-10-09 07:21:57 --> Output Class Initialized
+INFO - 2023-10-09 07:21:57 --> Security Class Initialized
+DEBUG - 2023-10-09 07:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:21:57 --> Input Class Initialized
+INFO - 2023-10-09 07:21:57 --> Language Class Initialized
+ERROR - 2023-10-09 07:21:57 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:22:10 --> Config Class Initialized
+INFO - 2023-10-09 07:22:10 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:10 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:10 --> URI Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> No URI present. Default controller set.
+INFO - 2023-10-09 07:22:10 --> Router Class Initialized
+INFO - 2023-10-09 07:22:10 --> Output Class Initialized
+INFO - 2023-10-09 07:22:10 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:10 --> Input Class Initialized
+INFO - 2023-10-09 07:22:10 --> Language Class Initialized
+INFO - 2023-10-09 07:22:10 --> Loader Class Initialized
+INFO - 2023-10-09 07:22:10 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:22:10 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:22:10 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:22:10 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:22:10 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:22:10 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:22:10 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:22:10 --> Controller Class Initialized
+INFO - 2023-10-09 07:22:10 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "News_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:22:10 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:22:10 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/home.php
+INFO - 2023-10-09 07:22:10 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:22:10 --> Final output sent to browser
+DEBUG - 2023-10-09 07:22:10 --> Total execution time: 0.0680
+INFO - 2023-10-09 07:22:10 --> Config Class Initialized
+INFO - 2023-10-09 07:22:10 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:10 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:10 --> URI Class Initialized
+INFO - 2023-10-09 07:22:10 --> Router Class Initialized
+INFO - 2023-10-09 07:22:10 --> Output Class Initialized
+INFO - 2023-10-09 07:22:10 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:10 --> Input Class Initialized
+INFO - 2023-10-09 07:22:10 --> Language Class Initialized
+ERROR - 2023-10-09 07:22:10 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:22:14 --> Config Class Initialized
+INFO - 2023-10-09 07:22:14 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:14 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:14 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:14 --> URI Class Initialized
+INFO - 2023-10-09 07:22:14 --> Router Class Initialized
+INFO - 2023-10-09 07:22:14 --> Output Class Initialized
+INFO - 2023-10-09 07:22:14 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:14 --> Input Class Initialized
+INFO - 2023-10-09 07:22:14 --> Language Class Initialized
+INFO - 2023-10-09 07:22:14 --> Loader Class Initialized
+INFO - 2023-10-09 07:22:14 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:22:14 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:22:14 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:22:14 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:22:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:22:14 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:22:14 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:22:14 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:22:14 --> Controller Class Initialized
+INFO - 2023-10-09 07:22:14 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "News_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:22:14 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:22:14 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/comprehensive_care.php
+INFO - 2023-10-09 07:22:14 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:22:14 --> Final output sent to browser
+DEBUG - 2023-10-09 07:22:14 --> Total execution time: 0.0766
+INFO - 2023-10-09 07:22:14 --> Config Class Initialized
+INFO - 2023-10-09 07:22:14 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:14 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:14 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:14 --> URI Class Initialized
+INFO - 2023-10-09 07:22:14 --> Router Class Initialized
+INFO - 2023-10-09 07:22:14 --> Output Class Initialized
+INFO - 2023-10-09 07:22:14 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:14 --> Input Class Initialized
+INFO - 2023-10-09 07:22:14 --> Language Class Initialized
+ERROR - 2023-10-09 07:22:14 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:22:29 --> Config Class Initialized
+INFO - 2023-10-09 07:22:29 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:29 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:29 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:29 --> URI Class Initialized
+INFO - 2023-10-09 07:22:29 --> Router Class Initialized
+INFO - 2023-10-09 07:22:29 --> Output Class Initialized
+INFO - 2023-10-09 07:22:29 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:29 --> Input Class Initialized
+INFO - 2023-10-09 07:22:29 --> Language Class Initialized
+INFO - 2023-10-09 07:22:29 --> Loader Class Initialized
+INFO - 2023-10-09 07:22:29 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:22:29 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:22:29 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:22:29 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:22:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:22:29 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:22:29 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:22:29 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:22:29 --> Controller Class Initialized
+INFO - 2023-10-09 07:22:29 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "News_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:22:29 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:22:29 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/messageOfmd.php
+INFO - 2023-10-09 07:22:29 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:22:29 --> Final output sent to browser
+DEBUG - 2023-10-09 07:22:29 --> Total execution time: 0.0699
+INFO - 2023-10-09 07:22:29 --> Config Class Initialized
+INFO - 2023-10-09 07:22:29 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:29 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:29 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:29 --> URI Class Initialized
+INFO - 2023-10-09 07:22:29 --> Router Class Initialized
+INFO - 2023-10-09 07:22:29 --> Output Class Initialized
+INFO - 2023-10-09 07:22:29 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:29 --> Input Class Initialized
+INFO - 2023-10-09 07:22:29 --> Language Class Initialized
+ERROR - 2023-10-09 07:22:29 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:22:38 --> Config Class Initialized
+INFO - 2023-10-09 07:22:38 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:38 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:38 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:38 --> URI Class Initialized
+INFO - 2023-10-09 07:22:38 --> Router Class Initialized
+INFO - 2023-10-09 07:22:38 --> Output Class Initialized
+INFO - 2023-10-09 07:22:38 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:38 --> Input Class Initialized
+INFO - 2023-10-09 07:22:38 --> Language Class Initialized
+INFO - 2023-10-09 07:22:38 --> Loader Class Initialized
+INFO - 2023-10-09 07:22:38 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:22:38 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:22:38 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:22:38 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:22:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:22:38 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:22:38 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:22:38 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:22:38 --> Controller Class Initialized
+INFO - 2023-10-09 07:22:38 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "News_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:22:38 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:22:38 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:22:38 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:22:38 --> Final output sent to browser
+DEBUG - 2023-10-09 07:22:38 --> Total execution time: 0.1663
+INFO - 2023-10-09 07:22:39 --> Config Class Initialized
+INFO - 2023-10-09 07:22:39 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:22:39 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:22:39 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:22:39 --> URI Class Initialized
+INFO - 2023-10-09 07:22:39 --> Router Class Initialized
+INFO - 2023-10-09 07:22:39 --> Output Class Initialized
+INFO - 2023-10-09 07:22:39 --> Security Class Initialized
+DEBUG - 2023-10-09 07:22:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:22:39 --> Input Class Initialized
+INFO - 2023-10-09 07:22:39 --> Language Class Initialized
+ERROR - 2023-10-09 07:22:39 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:23:16 --> Config Class Initialized
+INFO - 2023-10-09 07:23:16 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:23:16 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:23:16 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:23:16 --> URI Class Initialized
+INFO - 2023-10-09 07:23:16 --> Router Class Initialized
+INFO - 2023-10-09 07:23:16 --> Output Class Initialized
+INFO - 2023-10-09 07:23:16 --> Security Class Initialized
+DEBUG - 2023-10-09 07:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:23:16 --> Input Class Initialized
+INFO - 2023-10-09 07:23:16 --> Language Class Initialized
+INFO - 2023-10-09 07:23:16 --> Loader Class Initialized
+INFO - 2023-10-09 07:23:16 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:23:16 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:23:16 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:23:16 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:23:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:23:16 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:23:16 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:23:16 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:23:16 --> Controller Class Initialized
+INFO - 2023-10-09 07:23:16 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "News_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:23:16 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:23:16 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:23:16 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:23:16 --> Final output sent to browser
+DEBUG - 2023-10-09 07:23:16 --> Total execution time: 0.0541
+INFO - 2023-10-09 07:23:16 --> Config Class Initialized
+INFO - 2023-10-09 07:23:16 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:23:16 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:23:16 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:23:16 --> URI Class Initialized
+INFO - 2023-10-09 07:23:16 --> Router Class Initialized
+INFO - 2023-10-09 07:23:16 --> Output Class Initialized
+INFO - 2023-10-09 07:23:16 --> Security Class Initialized
+DEBUG - 2023-10-09 07:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:23:16 --> Input Class Initialized
+INFO - 2023-10-09 07:23:16 --> Language Class Initialized
+ERROR - 2023-10-09 07:23:16 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:27:26 --> Config Class Initialized
+INFO - 2023-10-09 07:27:26 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:27:26 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:27:26 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:27:26 --> URI Class Initialized
+INFO - 2023-10-09 07:27:26 --> Router Class Initialized
+INFO - 2023-10-09 07:27:26 --> Output Class Initialized
+INFO - 2023-10-09 07:27:26 --> Security Class Initialized
+DEBUG - 2023-10-09 07:27:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:27:26 --> Input Class Initialized
+INFO - 2023-10-09 07:27:26 --> Language Class Initialized
+INFO - 2023-10-09 07:27:26 --> Loader Class Initialized
+INFO - 2023-10-09 07:27:26 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:27:26 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:27:26 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:27:26 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:27:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:27:26 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:27:26 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:27:26 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:27:26 --> Controller Class Initialized
+INFO - 2023-10-09 07:27:26 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "News_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:27:26 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:27:26 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:27:26 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:27:26 --> Final output sent to browser
+DEBUG - 2023-10-09 07:27:26 --> Total execution time: 0.0629
+INFO - 2023-10-09 07:27:26 --> Config Class Initialized
+INFO - 2023-10-09 07:27:26 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:27:26 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:27:26 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:27:26 --> URI Class Initialized
+INFO - 2023-10-09 07:27:26 --> Router Class Initialized
+INFO - 2023-10-09 07:27:26 --> Output Class Initialized
+INFO - 2023-10-09 07:27:26 --> Security Class Initialized
+DEBUG - 2023-10-09 07:27:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:27:26 --> Input Class Initialized
+INFO - 2023-10-09 07:27:26 --> Language Class Initialized
+ERROR - 2023-10-09 07:27:26 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:33:56 --> Config Class Initialized
+INFO - 2023-10-09 07:33:56 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:33:56 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:33:56 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:33:56 --> URI Class Initialized
+INFO - 2023-10-09 07:33:56 --> Router Class Initialized
+INFO - 2023-10-09 07:33:56 --> Output Class Initialized
+INFO - 2023-10-09 07:33:56 --> Security Class Initialized
+DEBUG - 2023-10-09 07:33:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:33:56 --> Input Class Initialized
+INFO - 2023-10-09 07:33:56 --> Language Class Initialized
+INFO - 2023-10-09 07:33:56 --> Loader Class Initialized
+INFO - 2023-10-09 07:33:56 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:33:56 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:33:57 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:33:57 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:33:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:33:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:33:57 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:33:57 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:33:57 --> Controller Class Initialized
+INFO - 2023-10-09 07:33:57 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "News_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:33:57 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:33:57 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:33:57 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:33:57 --> Final output sent to browser
+DEBUG - 2023-10-09 07:33:57 --> Total execution time: 0.0661
+INFO - 2023-10-09 07:33:57 --> Config Class Initialized
+INFO - 2023-10-09 07:33:57 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:33:57 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:33:57 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:33:57 --> URI Class Initialized
+INFO - 2023-10-09 07:33:57 --> Router Class Initialized
+INFO - 2023-10-09 07:33:57 --> Output Class Initialized
+INFO - 2023-10-09 07:33:57 --> Security Class Initialized
+DEBUG - 2023-10-09 07:33:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:33:57 --> Input Class Initialized
+INFO - 2023-10-09 07:33:57 --> Language Class Initialized
+ERROR - 2023-10-09 07:33:57 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:36:21 --> Config Class Initialized
+INFO - 2023-10-09 07:36:21 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:36:21 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:36:21 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:36:21 --> URI Class Initialized
+INFO - 2023-10-09 07:36:21 --> Router Class Initialized
+INFO - 2023-10-09 07:36:21 --> Output Class Initialized
+INFO - 2023-10-09 07:36:21 --> Security Class Initialized
+DEBUG - 2023-10-09 07:36:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:36:21 --> Input Class Initialized
+INFO - 2023-10-09 07:36:21 --> Language Class Initialized
+INFO - 2023-10-09 07:36:21 --> Loader Class Initialized
+INFO - 2023-10-09 07:36:21 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:36:21 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:36:21 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:36:21 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:36:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:36:21 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:36:21 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:36:21 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:36:21 --> Controller Class Initialized
+INFO - 2023-10-09 07:36:21 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "News_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:36:21 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:36:21 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:36:21 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:36:21 --> Final output sent to browser
+DEBUG - 2023-10-09 07:36:21 --> Total execution time: 0.0898
+INFO - 2023-10-09 07:36:21 --> Config Class Initialized
+INFO - 2023-10-09 07:36:21 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:36:21 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:36:21 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:36:21 --> URI Class Initialized
+INFO - 2023-10-09 07:36:21 --> Router Class Initialized
+INFO - 2023-10-09 07:36:21 --> Output Class Initialized
+INFO - 2023-10-09 07:36:21 --> Security Class Initialized
+DEBUG - 2023-10-09 07:36:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:36:21 --> Input Class Initialized
+INFO - 2023-10-09 07:36:21 --> Language Class Initialized
+ERROR - 2023-10-09 07:36:21 --> 404 Page Not Found: Asset/frontend
+INFO - 2023-10-09 07:36:42 --> Config Class Initialized
+INFO - 2023-10-09 07:36:42 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:36:42 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:36:42 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:36:42 --> URI Class Initialized
+INFO - 2023-10-09 07:36:42 --> Router Class Initialized
+INFO - 2023-10-09 07:36:42 --> Output Class Initialized
+INFO - 2023-10-09 07:36:42 --> Security Class Initialized
+DEBUG - 2023-10-09 07:36:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:36:42 --> Input Class Initialized
+INFO - 2023-10-09 07:36:42 --> Language Class Initialized
+INFO - 2023-10-09 07:36:42 --> Loader Class Initialized
+INFO - 2023-10-09 07:36:42 --> Helper loaded: url_helper
+INFO - 2023-10-09 07:36:42 --> Helper loaded: file_helper
+INFO - 2023-10-09 07:36:42 --> Helper loaded: form_helper
+INFO - 2023-10-09 07:36:42 --> Database Driver Class Initialized
+DEBUG - 2023-10-09 07:36:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-10-09 07:36:42 --> Session: Class initialized using 'files' driver.
+INFO - 2023-10-09 07:36:42 --> Form Validation Class Initialized
+INFO - 2023-10-09 07:36:42 --> Model "Glob_model" initialized
+INFO - 2023-10-09 07:36:42 --> Controller Class Initialized
+INFO - 2023-10-09 07:36:42 --> Model "Checkup_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Doctors_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "News_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Cancer_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Patient_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Page_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Technology_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Gallery_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Generalquestions_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Packages_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Menucontrol_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Department_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "Settings_model" initialized
+INFO - 2023-10-09 07:36:42 --> Model "ComprehensiveCares_model" initialized
+INFO - 2023-10-09 07:36:42 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Home/managementteam.php
+INFO - 2023-10-09 07:36:42 --> File loaded: D:\xampp\htdocs\labaid\labaidcancer\backend\application\views\Template/client_theme.php
+INFO - 2023-10-09 07:36:42 --> Final output sent to browser
+DEBUG - 2023-10-09 07:36:42 --> Total execution time: 0.0760
+INFO - 2023-10-09 07:36:42 --> Config Class Initialized
+INFO - 2023-10-09 07:36:42 --> Hooks Class Initialized
+DEBUG - 2023-10-09 07:36:42 --> UTF-8 Support Enabled
+INFO - 2023-10-09 07:36:42 --> Utf8 Class Initialized
+INFO - 2023-10-09 07:36:42 --> URI Class Initialized
+INFO - 2023-10-09 07:36:42 --> Router Class Initialized
+INFO - 2023-10-09 07:36:42 --> Output Class Initialized
+INFO - 2023-10-09 07:36:42 --> Security Class Initialized
+DEBUG - 2023-10-09 07:36:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-10-09 07:36:42 --> Input Class Initialized
+INFO - 2023-10-09 07:36:42 --> Language Class Initialized
+ERROR - 2023-10-09 07:36:42 --> 404 Page Not Found: Asset/frontend
