@@ -253,7 +253,7 @@ if (base_url() != current_url()) {
             </div>
           </div>
           <div class="col-md-8">
-            <div class="">
+            <div class="about-doctor">
               <div class="biography">
                 <h5>Biggraphy</h5>
                 <p>
@@ -263,7 +263,9 @@ if (base_url() != current_url()) {
               <div class="education">
                 <h5>Education</h5>
                 <p>
-                    <?php echo $doctor['d_education']; ?>
+                  MBBS, FCPS, MS Fellow- Surgical Oncology (Tata Memorial
+                  Hospital, Mumbai, India) Trained in Surgical Oncology
+                  (Memorial Sloan Kettering Cancer Centre, New York, USA)
                 </p>
               </div>
               <div class="work-sehedule">
