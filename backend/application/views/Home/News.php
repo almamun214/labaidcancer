@@ -23,10 +23,10 @@
                 />
                 <div class="carousel-caption d-none d-md-block" style="top: 40%">
                     <h1 class="display-6 animate__animated animate__fadeInUp">
-                        Diagnostics
+                        News &
                     </h1>
                     <h1 class="display-5 animate__animated animate__fadeInUp">
-                        <strong style="font-weight: 600">& Test</strong>
+                        <strong style="font-weight: 600">& Article</strong>
                     </h1>
                 </div>
             </div>
