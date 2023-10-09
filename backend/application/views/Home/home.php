@@ -15,7 +15,7 @@
                     <h1 class="display-3 animate__animated animate__fadeInUp"><strong style="font-weight: 600;">Against Cancer</strong></h1>
                     <h1 class="display-6 animate__animated animate__fadeInUp">Through cutting-edge Research</h1>
                     <br>
-                    <button class="btn lp-btn-outline-primary animate__animated animate__fadeInUp">LEARN MORE</button>
+                    <a href="<?php echo base_url('about'); ?>" class="btn lp-btn-outline-primary animate__animated animate__fadeInUp">LEARN MORE</a>
                 </div>
             </div>
 

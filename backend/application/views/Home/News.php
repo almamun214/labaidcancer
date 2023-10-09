@@ -26,7 +26,7 @@
                         News &
                     </h1>
                     <h1 class="display-5 animate__animated animate__fadeInUp">
-                        <strong style="font-weight: 600">& Article</strong>
+                        <strong style="font-weight: 600"> Article</strong>
                     </h1>
                 </div>
             </div>
