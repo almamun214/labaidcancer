@@ -1,5 +1,5 @@
 <section id="chairman-banner" style="top: -122px; position: relative;">
-    <img class="img-fluid w-100" src="../images/banner/chairman-banner.png" alt="">
+    <img class="img-fluid w-100" src="<?php echo base_url(); ?>asset/frontend/images/banner/chairman-banner.png" alt="">
 </section>
 <section id="chairman" class="container">
     <div class="row">
@@ -7,7 +7,7 @@
         </div> -->
         <div class="col-md-4">
             <div class="profile">
-                <img class="img-fluid w-100" src="../images/chairman1.png" alt="">
+                <img class="img-fluid w-100" src="<?php echo base_url(); ?>asset/frontend/images/chairman1.png" alt="">
             </div>
         </div>
         <div class="col-md-8">

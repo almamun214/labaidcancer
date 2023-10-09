@@ -1,0 +1,11 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide:test-tube">
+<path id="Vector" d="M33.834 4.66663V45.5C33.834 48.7666 31.2673 51.3333 28.0007 51.3333C24.734 51.3333 22.1673 48.7666 22.1673 45.5V4.66663M19.834 4.66663H36.1673M33.834 37.3333H22.1673" stroke="url(#paint0_linear_1471_4445)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1471_4445" x1="28.0007" y1="4.66663" x2="28.0007" y2="51.3333" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8A73AD"/>
+<stop offset="1" stop-color="#44C8F5"/>
+</linearGradient>
+</defs>
+</svg>
