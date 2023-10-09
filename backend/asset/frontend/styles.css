@@ -38,7 +38,7 @@ a {
 .sticky-active {
   position: fixed !important;
   top: 0%;
-  left: 6%;
+  left: 7.50%;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
@@ -1509,4 +1509,70 @@ table tr th {
   margin-left: -10px;
   padding: 10px;
   width: 90%;
+}
+
+/* ====== News & Article =========== */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0.6;
+  background: linear-gradient(252deg, #8055A0 0%, #7A68AA 44.05%, #5BC1DA 98.86%);
+  mix-blend-mode: multiply;
+  z-index: 10;
+}
+.carousel-caption {
+  z-index: 20;
+}
+
+#articles {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.article {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.overlay-effect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0.6;
+  background: linear-gradient(252deg, #8055A0 0%, #7A68AA 44.05%, #5BC1DA 98.86%);
+  mix-blend-mode: multiply;
+  z-index: 10;
+}
+.article img {
+  width: 100%;
+}
+
+.article-content {
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  color: #fff;
+  z-index: 20;
+}
+
+.article-content button {
+  border: none;
+  outline: none;
+  padding: 4px 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.article-card-medium {
+  font-size: 17px;
+  width: 100%;
+}
+.article-card-small {
+  font-size: 15px;
+  width: 100%;
 }

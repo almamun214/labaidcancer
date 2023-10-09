@@ -1,8 +1,5 @@
 <!-- Start:: Slider -->
-<section
-        id="slider"
-        style="top: -122px; position: relative; padding-bottom: 0px"
->
+<section id="slider" style="top: -122px; position: relative; padding-bottom: 0px">
     <div
             id="carouselExampleCaptions"
             class="carousel slide"
@@ -34,16 +31,16 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/13 1.png"
-                    width="70%"
-                    class="img-fluid"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/13 1.png"
+                        width="70%"
+                        class="img-fluid"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12 mt-3">
                 <h4>Recognized by</h4>
                 <h1 class="purple-clr">
-                    “Forbes” <br />
+                    “Forbes” <br/>
                     Magazine titled"
                 </h1>
                 <h4>Person of the Year</h4>
@@ -75,15 +72,15 @@
                     the treatment of certain types of tumors or abnormal tissue
                     growth. It is a localized therapy that utilizes high-frequency
                     electromagnetic waves to generate heat and destroy targeted
-                    tissues <br />
-                    <br />
+                    tissues <br/>
+                    <br/>
                     Introduction to the CME done by Dr. George Noel Fernandes (Chief
                     Operating Officer, Labaid Cancer Hospital and Super Speciality
                     Centre). Prof. Dr. Bishwajit Bhowmik (Senior Consultant,
                     Interventional Radiology) gave a brief history of the MWA as well
                     as an overview of its past, present, and future. A Q&A session was
-                    also held. <br />
-                    <br />
+                    also held. <br/>
+                    <br/>
                     Senior Consultants, Consultants of Labaid Cancer Hospital and
                     Super Speciality Centre and other hospitals, and all other Senior
                     Officials from the Labaid Cancer Hospital and Super Speciality
@@ -94,10 +91,10 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/b732f76a35a6b068ea54636330f8b592 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/b732f76a35a6b068ea54636330f8b592 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
         </div>
@@ -105,10 +102,10 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/19 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/19 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
@@ -125,19 +122,19 @@
                         AND EFFICIENCY".</strong
                     >
 
-                    <br /><br />
+                    <br/><br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     thrilled by this outstanding accomplishment and send our warmest
                     congratulations and best wishes for continued success to him.
-                    <br /><br />
+                    <br/><br/>
                     <a
-                        style="
+                            style="
                   text-decoration: underline;
                   color: #333;
                   font-weight: 500;
                 "
-                        href="https://www.fortuneindia.com/"
-                        target="_blank"
+                            href="https://www.fortuneindia.com/"
+                            target="_blank"
                     >Fortune India</a
                     >
                     traces the economic and financial journey of one of the most
@@ -153,7 +150,7 @@
             <div class="col-md-6 col-sm-12">
                 <h4>Recognize By</h4>
                 <h1 class="purple-clr">
-                    The Industry <br />
+                    The Industry <br/>
                     Opinion
                 </h1>
                 <h4>Fortune India Magazine</h4>
@@ -162,13 +159,13 @@
                     Managing Director of Labaid Cancer Hospital and Super Speciality
                     Centre, has been featured in the Industry Opinion Magazine titled
                     "Asia's Iconic Healthcare Leaders to Follow".
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     thrilled by this outstanding accomplishment and send our warmest
                     congratulations and best wishes for continued success to him
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Industry Opinion is a Business Solution Magazine. Company with an
                     aim to highlight not only the achievements of companies and
                     entrepreneurs but also to shed light on the innovations they are
@@ -177,10 +174,10 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/14 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/14 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
         </div>
@@ -188,16 +185,16 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/15 1.png"
-                    class="img-fluid"
-                    width="60%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/15 1.png"
+                        class="img-fluid"
+                        width="60%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
                 <h4>Recognize By</h4>
                 <h1 class="purple-clr">
-                    International <br />
+                    International <br/>
                     Business
                 </h1>
                 <h4>Magazine</h4>
@@ -205,11 +202,11 @@
                     It is our immense pleasure to share that Mr. Sakif Shamim, the
                     Managing Director of Labaid Cancer Hospital and Super Speciality
                     Centre, has been featured in the International Business Magazine.
-                    <br /><br />
+                    <br/><br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     thrilled by this outstanding accomplishment and send our warmest
                     congratulations and best wishes for continued success to him.
-                    <br /><br />
+                    <br/><br/>
                     International Business Magazine is a UAE-based company with a
                     subscriber base of more than 50,000 that includes investors,
                     C-suite employees, key stakeholders, policymakers and government
@@ -232,13 +229,13 @@
                     >"LABAID CANCER HOSPITAL - BEATING CANCER WITH ITS COMPREHENSIVE
                         CANCER CARE"</strong
                     >
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     thrilled by this outstanding accomplishment and send our warmest
                     congratulations and best wishes for continued success to him.
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Silicon India, A platform that resonates with engaging and
                     informative content, Silicon India entails the editorial coverage
                     of successful entrepreneurs, proficient CEOs, industry leaders,
@@ -249,19 +246,19 @@
                     world.
                 </p>
                 <a
-                    class="text-info"
-                    style="font-weight: 700"
-                    target="_blank"
-                    href="https://www.siliconindia.com/digital-magazine/startups-spotlight-may-2023/#page=14"
+                        class="text-info"
+                        style="font-weight: 700"
+                        target="_blank"
+                        href="https://www.siliconindia.com/digital-magazine/startups-spotlight-may-2023/#page=14"
                 >Magazine Link :</a
                 >
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/18.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/18.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
         </div>
@@ -269,20 +266,20 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/200ff18f334ad4a3becc2bc15e1ffa6f 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/200ff18f334ad4a3becc2bc15e1ffa6f 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
                 <h4>Recognized by</h4>
                 <h1 class="purple-clr">
-                    “TIME” magazine <br />
+                    “TIME” magazine <br/>
                     titled"
                 </h1>
                 <h4>
-                    setting the Standard <br />
+                    setting the Standard <br/>
                     in Health Care"
                 </h4>
                 <p class="text-justify">
@@ -290,7 +287,7 @@
                     Cancer Hospital and Super Speciality Centre, Mr. Sakif Shamim for
                     being recognized by “TIME” magazine titled" Setting the Standard
                     in Health Care".
-                    <br /><br />
+                    <br/><br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     elated by this great achievement.TIME is a global news multimedia
                     brand. An essential destination for reporting on stories that
@@ -305,8 +302,8 @@
                 <h1 class="purple-clr">"Outlook Business"</h1>
                 <h4>Magazine titled</h4>
                 <h3
-                    style="font-weight: 700; padding-top: 5px; padding-bottom: 5px"
-                    class="text-info"
+                        style="font-weight: 700; padding-top: 5px; padding-bottom: 5px"
+                        class="text-info"
                 >
                     Redefining CANCER CARE IN BANGLADESH"
                 </h3>
@@ -316,8 +313,8 @@
                     Managing Director of Labaid Cancer Hospital and Super Speciality
                     Centre, Mr. Sakif Shamim for being recognized by “Outlook
                     Business” magazine titled" Redefining CANCER CARE IN BANGLADESH".
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     elated by this great achievement. Outlook Business is a
                     comprehensive mix of stories ranging from interesting
@@ -327,10 +324,10 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/7 79.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/7 79.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
         </div>
@@ -338,16 +335,16 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/4.png"
-                    class="img-fluid"
-                    width="75%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/4.png"
+                        class="img-fluid"
+                        width="75%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
                 <h4>Awarded by</h4>
                 <h1 class="purple-clr">
-                    Global Brands <br />
+                    Global Brands <br/>
                     Magazine AWARDS - 2022
                 </h1>
                 <h4>in 03 Categories</h4>
@@ -363,37 +360,37 @@
                 </p>
                 <div class="mt-3 d-flex align-items-center justify-content-start">
                     <img
-                        src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
-                        class="img-fluid"
-                        style="margin-right: 20px"
-                        alt=""
+                            src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
+                            class="img-fluid"
+                            style="margin-right: 20px"
+                            alt=""
                     />
                     <p style="color: rgb(138, 115, 173); font-weight: 600">
-                        Mr. Sakif Shamim (Labaid Cancer Hospital) - <br />
+                        Mr. Sakif Shamim (Labaid Cancer Hospital) - <br/>
                         Most Promising Leader - Healthcare, Bangladesh
                     </p>
                 </div>
                 <div class="mt-3 d-flex align-items-center justify-content-start">
                     <img
-                        src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
-                        class="img-fluid"
-                        style="margin-right: 20px"
-                        alt=""
+                            src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
+                            class="img-fluid"
+                            style="margin-right: 20px"
+                            alt=""
                     />
                     <p style="color: rgb(138, 115, 173); font-weight: 600">
-                        Labaid Cancer Hospital and Super Special - Best <br />
+                        Labaid Cancer Hospital and Super Special - Best <br/>
                         Cancer & Super Speciality Hospital, Bangladesh
                     </p>
                 </div>
                 <div class="mt-3 d-flex align-items-center justify-content-start">
                     <img
-                        src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
-                        class="img-fluid"
-                        style="margin-right: 20px"
-                        alt=""
+                            src="<?php echo base_url(); ?>asset/frontend/images/awards/mdi_bookmark-tick.svg"
+                            class="img-fluid"
+                            style="margin-right: 20px"
+                            alt=""
                     />
                     <p style="color: rgb(138, 115, 173); font-weight: 600">
-                        Labaid Cancer Hospital and Super Special - Most <br />
+                        Labaid Cancer Hospital and Super Special - Most <br/>
                         Advanced Hospital for Cancer Treatment, Bangladesh
                     </p>
                 </div>
@@ -405,7 +402,7 @@
                 <h4>Continuing Medical Education (CME)</h4>
                 <p class="text-info">Program on Colorectal Cancer with</p>
                 <h1 class="purple-clr">
-                    Singapore General Hospital<br />
+                    Singapore General Hospital<br/>
                     (SingHealth)
                 </h1>
                 <p class="text-justify">
@@ -416,23 +413,23 @@
                     Department of Colorectal Surgery, Singapore General Hospital) and
                     Dr. Md. Saifullah (Consultant, Colorectal & Laparoscopic Surgery,
                     Labaid Cancer Hospital and Super Speciality Centre).
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Prof. Dr. Shahadot Hossain Sheikh (Professor & Chairman Department
                     of General & Colorectal Surgery, BSMMU) chaired the session &
                     discussed about the current scenario in the treatment of
                     Colorectal Surgery.
-                    <br /><br />
+                    <br/><br/>
                     The welcome speech & opening statement was done by Dr. George Noel
                     Fernandes (Chief Operating Officer) & introduction of the CME
                     program was done by Amitavo Bhattacharyya (Head of the Department
                     of Business Development, Labaid Cancer Hospital and Super
                     Speciality Centre).
-                    <br /><br />
+                    <br/><br/>
                     Prof. Emile John Tan Kwong Wei presented on Evolving Strategies in
                     the Treatment of Colorectal Cancer & Dr. Md. Saifullah presented
                     on the future of Robotic Surgery in Bangladesh.
-                    <br /><br />
+                    <br/><br/>
                     Mr. Wayan Tsai (Senior Director, Programme Development SingHealth)
                     briefed about Singapore General Hospital & it's collaboration with
                     Labaid group. The Vote of Thanks was given by Emanuel Bappy Mondol
@@ -441,23 +438,23 @@
             </div>
             <div class="col-md-5 col-sm-12 text-end position-relative">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/44174177f95399edad4e58111173d5d0 1.png"
-                    class="img-fluid mb-3"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/44174177f95399edad4e58111173d5d0 1.png"
+                        class="img-fluid mb-3"
+                        width="70%"
+                        alt=""
                 />
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/cme-2.png"
-                    width="35%"
-                    class="position-absolute"
-                    style="left: -5%; top: 40%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/cme-2.png"
+                        width="35%"
+                        class="position-absolute"
+                        style="left: -5%; top: 40%"
+                        alt=""
                 />
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/cme-3.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/cme-3.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
         </div>
@@ -465,10 +462,10 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/WhatsApp Image 2023-08-21 at 10.35 1.png"
-                    class="img-fluid"
-                    width="75%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/WhatsApp Image 2023-08-21 at 10.35 1.png"
+                        class="img-fluid"
+                        width="75%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
@@ -481,10 +478,10 @@
                     Cancer Hospital and Super Speciality Centre, Mr. Sakif Shamim for
                     being recognized as the "Game Changer" by Indian magazine
                     "Business Today".
-                    <br /><br />
+                    <br/><br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre are
                     elated by this great achievement
-                    <br /><br />
+                    <br/><br/>
                     Game Changer is honoring business leaders for their remarkable
                     contribution to the global economy. This year Top 10 Business
                     Persons were awarded.
@@ -495,19 +492,19 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12">
                 <h1 class="purple-clr">
-                    Global Brands & <br />
+                    Global Brands & <br/>
                     Leaders
                 </h1>
                 <h4>2022 Award</h4>
                 <p class="text-justify">
                     Leaders Work for Their Passion, Not Only for Money!
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Congratulations to our honorable Managing Director of Labaid
                     Cancer Hospital and Super Speciality Centre, Mr. Sakif Shamim for
                     achieving the Fortune India Exchange presents “Global Brands &
                     Leaders 2022” award.
-                    <br /><br />
+                    <br/><br/>
                     Fortune India Exchange is honoring leaders and brands from across
                     the globe for their remarkable contribution to the global economy.
                     This year Top 5 Global Brands & Leaders 2022 were awarded.
@@ -515,10 +512,10 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/2 5.png"
-                    class="img-fluid"
-                    width="80%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/2 5.png"
+                        class="img-fluid"
+                        width="80%"
+                        alt=""
                 />
             </div>
         </div>
@@ -526,15 +523,15 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/f37b1eb3093d16b353b589650d8a6650 1.png"
-                    class="img-fluid"
-                    width="80%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/f37b1eb3093d16b353b589650d8a6650 1.png"
+                        class="img-fluid"
+                        width="80%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
                 <h1 class="purple-clr">
-                    Golden Bridge <br />
+                    Golden Bridge <br/>
                     Awards 2022
                 </h1>
                 <h4>(Globee® Awards)</h4>
@@ -543,7 +540,7 @@
                     consisting of nine award programs, among them Mr. Sakif Shamim
                     (Managing Director, Labaid Cancer Hospital and Super Speciality
                     Centre) is honored by the Golden Bridge Awards 2022.
-                    <br /><br />
+                    <br/><br/>
                     This award has been given for his excellent entrepreneurship of
                     the year in healthcare products and services and this hospital is
                     the complete comprehensive cancer hospital in Bangladesh that
@@ -552,7 +549,7 @@
                     Radiotherapy, Brachytherapy etc. under one room provided by expert
                     medical personnel and skilled nurses where winning cancer is the
                     goal.
-                    <br /><br />
+                    <br/><br/>
                     We congratulate him on his splendid award winning.
                 </p>
                 <a href="https://lnkd.in/gCKZTYWG" target="_blank" class="text-dark"
@@ -569,27 +566,27 @@
                 <p class="text-justify">
                     A Proven Leader with a Record of Accomplishments in the
                     Transforming Healthcare Sector.
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Congratulations to our honorable Managing Director of Labaid
                     Cancer Hospital and Super Speciality Centre, Mr. Sakif Shamim for
                     achieving the CEO Insights presents the "Top 10 Leaders in
                     Bangladesh - 2022" award.
-                    <br /><br />
+                    <br/><br/>
                     This award is an annual recognition that showcase exceptional
                     business leaders in Bangladesh who guide the industry to its
                     future by setting benchmarks across several key parameters.
-                    <br /><br />
+                    <br/><br/>
                     We at Labaid Cancer Hospital and Super Speciality Centre family
                     are elated by this great achievement.
                 </p>
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/11 1.png"
-                    class="img-fluid"
-                    width="80%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/11 1.png"
+                        class="img-fluid"
+                        width="80%"
+                        alt=""
                 />
             </div>
         </div>
@@ -597,15 +594,15 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/12 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/12 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
                 <h1 class="purple-clr">
-                    Asia's Greatest <br />
+                    Asia's Greatest <br/>
                     Leaders
                 </h1>
                 <h2 class="text-info">2021-22 Award</h2>
@@ -615,7 +612,7 @@
                     Asia One presents the "Asia's Greatest Leaders 2021-22" award. We
                     at Labaid Cancer Hospital and Super Speciality Centre family are
                     elated by this great achievement.
-                    <br /><br />
+                    <br/><br/>
                     AsiaOne Magazine is a leading Media publication with a focus on
                     research-based Brand & Leader listings.
                 </p>
@@ -626,7 +623,7 @@
             <div class="col-md-6 col-sm-12">
                 <h4>Providing medical care to</h4>
                 <h1 class="purple-clr">
-                    First international <br />
+                    First international <br/>
                     patients
                 </h1>
                 <h4>April 2021</h4>
@@ -640,10 +637,10 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/b55403e19b34bd06d211ddf0b54aa515 1.png"
-                    class="img-fluid"
-                    width="80%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/b55403e19b34bd06d211ddf0b54aa515 1.png"
+                        class="img-fluid"
+                        width="80%"
+                        alt=""
                 />
             </div>
         </div>
@@ -651,10 +648,10 @@
         <div class="row" style="margin-top: 120px">
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/483351b0f0d7fdbbc34aa53d3e19f62e 1.png"
-                    class="img-fluid"
-                    width="70%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/483351b0f0d7fdbbc34aa53d3e19f62e 1.png"
+                        class="img-fluid"
+                        width="70%"
+                        alt=""
                 />
             </div>
             <div class="col-md-6 col-sm-12">
@@ -663,7 +660,8 @@
                 </h1>
                 <h4>May 2021</h4>
                 <p class="text-justify">
-                    LabAid Cancer Hospital and Super Specialty Center provided CT Simulation services to 100 patients on May 27, 2021.
+                    LabAid Cancer Hospital and Super Specialty Center provided CT Simulation services to 100 patients on
+                    May 27, 2021.
                 </p>
             </div>
         </div>
@@ -676,15 +674,18 @@
                 </h1>
                 <h4>July 2021</h4>
                 <p class="text-justify">
-                    Labaid Cancer Hospital & Super Specialty Center administered chemotherapy to 100th patient on July 18, 2021. Mr. Sakif Shamim, Managing Director, LabAid Cancer Hospital & Super Specialty Center, thanked all the doctors, nurses and other people who were closely associated with the hospital for this success and celebrated its success by cutting a cake.
+                    Labaid Cancer Hospital & Super Specialty Center administered chemotherapy to 100th patient on July
+                    18, 2021. Mr. Sakif Shamim, Managing Director, LabAid Cancer Hospital & Super Specialty Center,
+                    thanked all the doctors, nurses and other people who were closely associated with the hospital for
+                    this success and celebrated its success by cutting a cake.
                 </p>
             </div>
             <div class="col-md-6 col-sm-12 text-center">
                 <img
-                    src="<?php echo base_url(); ?>asset/frontend/images/awards/c333688fe8878fbcc4734c925df6d270 1.png"
-                    class="img-fluid"
-                    width="80%"
-                    alt=""
+                        src="<?php echo base_url(); ?>asset/frontend/images/awards/c333688fe8878fbcc4734c925df6d270 1.png"
+                        class="img-fluid"
+                        width="80%"
+                        alt=""
                 />
             </div>
         </div>
