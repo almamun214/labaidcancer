@@ -1,5 +1,5 @@
 <section style="position: relative;">
-    <img class="img-fluid w-100" src="../images/banner/center-of-excelence.png" alt="">
+    <img class="img-fluid w-100" src="<?php echo base_url(); ?>asset/frontend/images/banner/center-of-excelence.png" alt="">
 </section>
 <section id="service">
     <div class=" container-fluid">

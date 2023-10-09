@@ -20,7 +20,7 @@
 <!-- Start:: Navbar -->
 <nav id="navbar" class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="<?php echo base_url(); ?>asset/frontend/images/LCH_logo.png" class="img-fluid" alt="LCH" >
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
                         ABOUT US
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Labaid Cancer Hospital</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('about'); ?>"><div class="sub-menu-text">Labaid Cancer Hospital</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('messageOfchairman'); ?>"><div class="sub-menu-text">Message Of Chairman</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('messageofmd'); ?>"><div class="sub-menu-text">Message of Managing Director </div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('management'); ?>"><div class="sub-menu-text">Management Team</div></a></li>
@@ -54,14 +54,15 @@
                         SERVICE
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">OPD</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Chemotherapy &amp; Day Care</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnostic Services</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Pharmacy</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Radiotherapy</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Nuclear Medicine</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnostic Test</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Package</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('doctors'); ?>"><div class="sub-menu-text">Doctors</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('diagnostictest'); ?>"><div class="sub-menu-text">Diagnostic Test</div></a></li>
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">OPD</div></a></li>-->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Chemotherapy &amp; Day Care</div></a></li>-->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Diagnostic Services</div></a></li>-->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Pharmacy</div></a></li>-->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Radiotherapy</div></a></li>-->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Nuclear Medicine</div></a></li>                        -->
+<!--                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Package</div></a></li>-->
                     </ul>
                 </li>
                 <li class="nav-item dropdown ms-3">

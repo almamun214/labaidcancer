@@ -1,0 +1,26 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="healthcare-lungs-svgrepo-com">
+<path id="Vector" d="M22.75 29.25C22.75 31.2 22.75 30.0625 22.75 32.5C22.75 43.55 19.5 44.3625 14.625 44.3625C10.075 44.3625 4.875 53.7875 4.875 38.1875C4.875 22.5875 13.325 9.75 18.3625 9.75C19.6625 9.75 20.8 10.2375 21.45 12.8375" stroke="url(#paint0_linear_1471_3245)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M29.25 29.25C29.25 31.2 29.25 30.0625 29.25 32.5C29.25 43.55 32.5 44.3625 37.375 44.3625C41.925 44.3625 47.125 53.7875 47.125 38.1875C47.125 22.5875 38.675 9.75 33.8 9.75C32.5 9.75 31.3625 10.2375 30.7125 12.8375" stroke="url(#paint1_linear_1471_3245)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M26 3.25V13.975C26 16.4125 24.8625 18.85 22.9125 20.475L16.25 26" stroke="url(#paint2_linear_1471_3245)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M26 13.975C26 16.4125 27.1375 18.85 29.0875 20.475L35.75 26" stroke="url(#paint3_linear_1471_3245)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1471_3245" x1="13.8125" y1="9.75" x2="13.8125" y2="47.1843" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8B73AE"/>
+<stop offset="1" stop-color="#44C8F5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1471_3245" x1="38.1875" y1="9.75" x2="38.1875" y2="47.1843" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8B73AE"/>
+<stop offset="1" stop-color="#44C8F5"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1471_3245" x1="21.125" y1="3.25" x2="21.125" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8B73AE"/>
+<stop offset="1" stop-color="#44C8F5"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1471_3245" x1="30.875" y1="13.975" x2="30.875" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8B73AE"/>
+<stop offset="1" stop-color="#44C8F5"/>
+</linearGradient>
+</defs>
+</svg>
