@@ -1,685 +1,746 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Doctors</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
-    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet"/>
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet"/>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
     <script
-      src="https://kit.fontawesome.com/29012c8d5d.js"
-      crossorigin="anonymous"
+            src="https://kit.fontawesome.com/29012c8d5d.js"
+            crossorigin="anonymous"
     ></script>
-  </head>
-  <body>
-    <!-- Start:: Navbar -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container"
-    >
-      <div class="container-fluid">
+</head>
+<body>
+<!-- Start:: Navbar -->
+<nav
+        id="navbar"
+        class="navbar navbar-expand-lg sticky navbar-dark p-4 rounded-5 shadow p-3 bg-white container"
+>
+    <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./images/LCH_logo.png" class="img-fluid" alt="LCH" />
+            <img src="./images/LCH_logo.png" class="img-fluid" alt="LCH"/>
         </a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav">
-            <li class="nav-item ms-3 active">
-              <a class="nav-link" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item dropdown ms-3">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ABOUT US
-              </a>
-              <ul
-                class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Labaid Cancer Hospital</div></a
-                  >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav">
+                <li class="nav-item ms-3 active">
+                    <a class="nav-link" aria-current="page" href="#">HOME</a>
                 </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Message Of Chairman</div></a
-                  >
+                <li class="nav-item dropdown ms-3">
+                    <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                    >
+                        ABOUT US
+                    </a>
+                    <ul
+                            class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
+                            aria-labelledby="navbarDropdown"
+                    >
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Labaid Cancer Hospital</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Message Of Chairman</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">
+                                    Message of Managing Director
+                                </div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Management Team</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Winning Cancer</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Centers of Excellence</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Department</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">
+                                    Our Comprehensive Care Team
+                                </div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Diagnosis & Treatment</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">FAQ</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Contact With Us</div>
+                            </a
+                            >
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">
-                      Message of Managing Director
-                    </div></a
-                  >
+                <li class="nav-item dropdown ms-3">
+                    <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                    >
+                        SERVICE
+                    </a>
+                    <ul
+                            class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
+                            aria-labelledby="navbarDropdown"
+                    >
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">OPD</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">
+                                    Chemotherapy &amp; Day Care
+                                </div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Diagnostic Services</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Pharmacy</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Radiotherapy</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Nuclear Medicine</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Diagnostic Test</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Package</div>
+                            </a
+                            >
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Management Team</div></a
-                  >
+                <li class="nav-item dropdown ms-3">
+                    <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                    >
+                        PAGES
+                    </a>
+                    <ul
+                            class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
+                            aria-labelledby="navbarDropdown"
+                    >
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">News & Article</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Award Recognition</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Gallary</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Healthtips</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Career</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Certification</div>
+                            </a
+                            >
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Winning Cancer</div></a
-                  >
+                <li class="nav-item dropdown ms-3">
+                    <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                    >
+                        OPORAJOYEE ABASHON
+                    </a>
+                    <ul
+                            class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
+                            aria-labelledby="navbarDropdown"
+                    >
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">
+                                    About Oporajoyee Abashon
+                                </div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Service Details</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Room Rent</div>
+                            </a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item p-3 ps-5 pe-5" href="#"
+                            >
+                                <div class="sub-menu-text">Visitor Policy</div>
+                            </a
+                            >
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Centers of Excellence</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Department</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">
-                      Our Comprehensive Care Team
-                    </div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Diagnosis & Treatment</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">FAQ</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Contact With Us</div></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown ms-3">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERVICE
-              </a>
-              <ul
-                class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">OPD</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">
-                      Chemotherapy &amp; Day Care
-                    </div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Diagnostic Services</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Pharmacy</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Radiotherapy</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Nuclear Medicine</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Diagnostic Test</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Package</div></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown ms-3">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PAGES
-              </a>
-              <ul
-                class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">News & Article</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Award Recognition</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Gallary</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Healthtips</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Career</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Certification</div></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown ms-3">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                OPORAJOYEE ABASHON
-              </a>
-              <ul
-                class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">
-                      About Oporajoyee Abashon
-                    </div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Service Details</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Room Rent</div></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item p-3 ps-5 pe-5" href="#"
-                    ><div class="sub-menu-text">Visitor Policy</div></a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <!-- <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
-          <form class="d-flex" role="search">
-            <!-- <a class="kb-btn kb-btn-1 ms-4">Login or Sign Up</a> -->
-            <div class="ms-4 d-flex align-items-center">
-              <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-            </div>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            <form class="d-flex" role="search">
+                <!-- <a class="kb-btn kb-btn-1 ms-4">Login or Sign Up</a> -->
+                <div class="ms-4 d-flex align-items-center">
+                    <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                </div>
 
-            <button class="btn lp-btn-outline-primary ms-4">
-              Get Appointment
-            </button>
-          </form>
-          <!-- <button type="button" class="btn btn-link"><span class="bi bi-cart"></span></button> -->
-        </div>
-      </div>
-    </nav>
-
-    <!-- Start:: Slider -->
-    <section id="slider" style="top: -110px; position: relative">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="images/doctor_background.png"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption">
-              <h1 class="display-3 animate__animated animate__fadeInUp">
-                <strong style="font-weight: 600; margin-top: 30px"
-                  >Doctors</strong
-                >
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Start:: Doctors -->
-    <section id="doctor">
-        <div class="" style="padding: 0 10%; position: relative; top: -150px; max-width: 600px;">
-            <select class="form-select doctor-select" aria-label="Default select example">
-                <option >Select Department</option>
-                <option value="1">Al Mamun</option>
-                <option value="2">Sujon Ahmed</option>
-                <option value="3">Raduan Islam</option>
-            </select>
-      </div>
-      <div class="doctors-service_background container-fluid">
-        <div
-          class="container"
-          style="height: 16px; position: relative; top: -92px"
-        >
-          <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <a href="doctor-appointment.html">
-                <div
-                  class="card text-center align-items-center mb-5"
-                  style="min-width: 12rem"
-                >
-                  <img
-                    src="./images/product/doctor1.png"
-                    class="card-img-top rounded-3"
-                    alt="..."
-                    style="width: 224px; height: 306px; object-fit: cover"
-                  />
-                  <div class="card-body rounded-3 shadow">
-                    <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                    <p class="card-text">Medical Oncology</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="card text-center align-items-center mb-5"
-                style="min-width: 12rem"
-              >
-                <img
-                  src="./images/product/doctor1.png"
-                  class="card-img-top rounded-3"
-                  alt="..."
-                  style="width: 224px; height: 306px; object-fit: cover"
-                />
-                <div class="card-body rounded-3 shadow">
-                  <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
-                  <p class="card-text">Medical Oncology</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="d-flex justify-content-center">
-            <a class="kb-btn kb-btn-1">View All Product</a>
-          </div> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Start:: Subscribe -->
-    <section id="subscribe">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <h1 class="display-6">Subscribe To Our</h1>
-            <h1 class="fw-900">Newsletter</h1>
-          </div>
-          <div class="col-md-7">
-            <form action="">
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Enter Your Mail"
-                  style="padding: 1.5rem 3rem"
-                />
-              </div>
-              <div class="form-group pt-4">
-                <button
-                  class="btn lp-btn-outline-primary"
-                  style="padding: 7px 59px"
-                >
-                  Submit
+                <button class="btn lp-btn-outline-primary ms-4">
+                    Get Appointment
                 </button>
-              </div>
             </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Start:: Get in touch -->
-    <section id="get-in-touch">
-      <div class="text-center" style="padding-bottom: 170px">
-        <h1 class="title2">Get in Touch</h1>
-        <h4 class="title1">With Us</h4>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="row">
-              <div class="col-lg-12 p-4 pt-0">
-                <div class="card service_card p-4 text-center">
-                  <h1><i class="fa-solid fa-map-marker"></i></h1>
-                  <div class="card-body">
-                    <h5 class="card-title">Location</h5>
-                    <p class="card-text">26 Green Road, Dhaka, 1205</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 p-4">
-                <div class="card service_card p-4 text-center">
-                  <h1><i class="fa-solid fa-phone"></i></h1>
-                  <div class="card-body">
-                    <h5 class="card-title">Hotline</h5>
-                    <p class="card-text">10664</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 p-4">
-                <div class="card service_card p-4 text-center">
-                  <h1><i class="fa-solid fa-envelope"></i></h1>
-                  <div class="card-body">
-                    <h5 class="card-title">Mail Us</h5>
-                    <p class="card-text">info@labaidcancer.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9">
-            <div class="card p-5">
-              <form class="row g-5" action="">
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="first-name"
-                    placeholder="Your First Name"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="last-name"
-                    placeholder="Your Last Name"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    placeholder="Enter Your Mail"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="phone"
-                    placeholder="Enter Your Phone Number"
-                  />
-                </div>
-                <div class="col-md-12">
-                  <textarea
-                    type="text"
-                    class="form-control"
-                    name="message"
-                    id=""
-                    cols="30"
-                    rows="10"
-                    placeholder="Enter Your Message"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <button
-                    type="submit"
-                    class="btn lp-btn-outline-primary"
-                    style="padding: 7px 59px"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Start:: Location -->
-    <section id="location">
-      <div class="text-center" style="padding-bottom: 60px">
-        <h1 class="title2">Our Location</h1>
-      </div>
-      <div class="container">
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              class="gmap_iframe"
-              width="100%"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              src="https://maps.google.com/maps?width=660&amp;height=385&amp;hl=en&amp;q=labaid cancer&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            ></iframe
-            ><a href="https://connectionsgame.org/">Connections Unlimited</a>
-          </div>
-          <style>
-            .mapouter {
-              position: relative;
-              text-align: right;
-              width: 100%;
-              height: 385px;
-            }
-            .gmap_canvas {
-              overflow: hidden;
-              background: none !important;
-              width: 100%;
-              height: 385px;
-            }
-            .gmap_iframe {
-              height: 385px !important;
-            }
-          </style>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="subscribe">
-    <div class="container">
-        <div class="subscribe-form align-items-center rounded-3">
-          <div class="row align-items-center">
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-1">
-              <i class="fa-regular fa-envelope text-white fa-2xl"></i>
-            </div>
-            <div class="col-xs-6 col-sm-10 col-md-10 col-lg-5">
-              <h3 class="subscribe-title">For Latest Updates <br> Subscribe Our Newsletter</h3>
-            </div>
-            <div class="col-xs-6 col-sm-8 col-md-9 col-lg-4">
-              <input type="text" class="form-control" style="min-height: 48px; border: none; background: #0000001c;color: white;">
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 p-3">
-              <button type="button" class="btn btn-outline-light btn-lg" style="font-size: 14px;letter-spacing: 0.5px;font-family: Montserrat;">SUBSCRIBE</button>
-            </div>
-          </div>
+            <!-- <button type="button" class="btn btn-link"><span class="bi bi-cart"></span></button> -->
         </div>
     </div>
-  </section> -->
+</nav>
 
-    <!-- Start:: Footer -->
-    <section id="footer">
-      <div class="footer-container">
+<!-- Start:: Slider -->
+<section id="slider" style="top: -110px; position: relative">
+    <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+    >
+        <div class="carousel-indicators">
+            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img
+                        src="images/doctor_background.png"
+                        class="d-block w-100"
+                        alt="..."
+                />
+                <div class="carousel-caption">
+                    <h1 class="display-3 animate__animated animate__fadeInUp">
+                        <strong style="font-weight: 600; margin-top: 30px"
+                        >Doctors</strong
+                        >
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Start:: Doctors -->
+<section id="doctor">
+<!--    <div class="" style="padding: 0 10%; position: relative; top: -150px; max-width: 600px;">-->
+<!--        <select class="form-select doctor-select" aria-label="Default select example">-->
+<!--            <option>Select Department</option>-->
+<!--            <option value="1">Al Mamun</option>-->
+<!--            <option value="2">Sujon Ahmed</option>-->
+<!--            <option value="3">Raduan Islam</option>-->
+<!--        </select>-->
+<!--    </div>-->
+    <div class="doctors-service_background container-fluid">
+        <div
+                class="container"
+                style="height: 16px; position: relative; top: -92px"
+        >
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <a href="doctor-appointment.html">
+                        <div
+                                class="card text-center align-items-center mb-5"
+                                style="min-width: 12rem"
+                        >
+                            <img
+                                    src="./images/product/doctor1.png"
+                                    class="card-img-top rounded-3"
+                                    alt="..."
+                                    style="width: 224px; height: 306px; object-fit: cover"
+                            />
+                            <div class="card-body rounded-3 shadow">
+                                <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                                <p class="card-text">Medical Oncology</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div
+                            class="card text-center align-items-center mb-5"
+                            style="min-width: 12rem"
+                    >
+                        <img
+                                src="./images/product/doctor1.png"
+                                class="card-img-top rounded-3"
+                                alt="..."
+                                style="width: 224px; height: 306px; object-fit: cover"
+                        />
+                        <div class="card-body rounded-3 shadow">
+                            <h6 class="card-title">Dr. Abdullah Al Mamun Khan</h6>
+                            <p class="card-text">Medical Oncology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="d-flex justify-content-center">
+              <a class="kb-btn kb-btn-1">View All Product</a>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<!-- Start:: Subscribe -->
+<section id="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1 class="display-6">Subscribe To Our</h1>
+                <h1 class="fw-900">Newsletter</h1>
+            </div>
+            <div class="col-md-7">
+                <form action="">
+                    <div class="form-group">
+                        <input
+                                class="form-control"
+                                type="text"
+                                placeholder="Enter Your Mail"
+                                style="padding: 1.5rem 3rem"
+                        />
+                    </div>
+                    <div class="form-group pt-4">
+                        <button
+                                class="btn lp-btn-outline-primary"
+                                style="padding: 7px 59px"
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Start:: Get in touch -->
+<section id="get-in-touch">
+    <div class="text-center" style="padding-bottom: 170px">
+        <h1 class="title2">Get in Touch</h1>
+        <h4 class="title1">With Us</h4>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-lg-12 p-4 pt-0">
+                        <div class="card service_card p-4 text-center">
+                            <h1><i class="fa-solid fa-map-marker"></i></h1>
+                            <div class="card-body">
+                                <h5 class="card-title">Location</h5>
+                                <p class="card-text">26 Green Road, Dhaka, 1205</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 p-4">
+                        <div class="card service_card p-4 text-center">
+                            <h1><i class="fa-solid fa-phone"></i></h1>
+                            <div class="card-body">
+                                <h5 class="card-title">Hotline</h5>
+                                <p class="card-text">10664</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 p-4">
+                        <div class="card service_card p-4 text-center">
+                            <h1><i class="fa-solid fa-envelope"></i></h1>
+                            <div class="card-body">
+                                <h5 class="card-title">Mail Us</h5>
+                                <p class="card-text">info@labaidcancer.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card p-5">
+                    <form class="row g-5" action="">
+                        <div class="col-md-6">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    name="first-name"
+                                    placeholder="Your First Name"
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    name="last-name"
+                                    placeholder="Your Last Name"
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <input
+                                    type="email"
+                                    class="form-control"
+                                    name="email"
+                                    placeholder="Enter Your Mail"
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    name="phone"
+                                    placeholder="Enter Your Phone Number"
+                            />
+                        </div>
+                        <div class="col-md-12">
+                  <textarea
+                          type="text"
+                          class="form-control"
+                          name="message"
+                          id=""
+                          cols="30"
+                          rows="10"
+                          placeholder="Enter Your Message"
+                  ></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button
+                                    type="submit"
+                                    class="btn lp-btn-outline-primary"
+                                    style="padding: 7px 59px"
+                            >
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Start:: Location -->
+<section id="location">
+    <div class="text-center" style="padding-bottom: 60px">
+        <h1 class="title2">Our Location</h1>
+    </div>
+    <div class="container">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe
+                        class="gmap_iframe"
+                        width="100%"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?width=660&amp;height=385&amp;hl=en&amp;q=labaid cancer&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe
+                >
+                <a href="https://connectionsgame.org/">Connections Unlimited</a>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 385px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 385px;
+                }
+
+                .gmap_iframe {
+                    height: 385px !important;
+                }
+            </style>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="subscribe">
+<div class="container">
+    <div class="subscribe-form align-items-center rounded-3">
+      <div class="row align-items-center">
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-1">
+          <i class="fa-regular fa-envelope text-white fa-2xl"></i>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-5">
+          <h3 class="subscribe-title">For Latest Updates <br> Subscribe Our Newsletter</h3>
+        </div>
+        <div class="col-xs-6 col-sm-8 col-md-9 col-lg-4">
+          <input type="text" class="form-control" style="min-height: 48px; border: none; background: #0000001c;color: white;">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 p-3">
+          <button type="button" class="btn btn-outline-light btn-lg" style="font-size: 14px;letter-spacing: 0.5px;font-family: Montserrat;">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+</div>
+</section> -->
+
+<!-- Start:: Footer -->
+<section id="footer">
+    <div class="footer-container">
         <!-- <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-3">
           <ul>
@@ -740,138 +801,138 @@
       </div> -->
 
         <div class="footer-logo">
-          <img src="./images/logo-footer.png" alt="" />
+            <img src="./images/logo-footer.png" alt=""/>
         </div>
 
         <div class="footer-about-us">
-          <h5>About Us</h5>
-          <ul>
-            <li>Labaid Cancer Hospital</li>
-            <li>Message Of Chairman</li>
-            <li>Message Of Managing Director</li>
-            <li>Management Team</li>
-            <li>Winning Cancer</li>
-            <li>Centers Of Excellence</li>
-            <li>Our Comprehensive Care Team</li>
-            <li>Diagnosis & Treatment</li>
-            <li>FAQ</li>
-            <li>Contact With Us</li>
-          </ul>
+            <h5>About Us</h5>
+            <ul>
+                <li>Labaid Cancer Hospital</li>
+                <li>Message Of Chairman</li>
+                <li>Message Of Managing Director</li>
+                <li>Management Team</li>
+                <li>Winning Cancer</li>
+                <li>Centers Of Excellence</li>
+                <li>Our Comprehensive Care Team</li>
+                <li>Diagnosis & Treatment</li>
+                <li>FAQ</li>
+                <li>Contact With Us</li>
+            </ul>
         </div>
 
         <div class="footer-services">
-          <h5>Services</h5>
-          <ul>
-            <li>OPD</li>
-            <li>Chemotherapy & Day Care</li>
-            <li>Diagnostic Services</li>
-            <li>Pharmacy</li>
-            <li>Radiotherapy</li>
-            <li>Nuclear Medicine</li>
-            <li>Diagnostic Test</li>
-            <li>Package</li>
-          </ul>
+            <h5>Services</h5>
+            <ul>
+                <li>OPD</li>
+                <li>Chemotherapy & Day Care</li>
+                <li>Diagnostic Services</li>
+                <li>Pharmacy</li>
+                <li>Radiotherapy</li>
+                <li>Nuclear Medicine</li>
+                <li>Diagnostic Test</li>
+                <li>Package</li>
+            </ul>
         </div>
 
         <div class="footer-oporajoyee-abashon">
-          <h5>Oporajoyee Abashon</h5>
-          <ul>
-            <li>About Oporajoyee Abashon</li>
-            <li>Service Details</li>
-            <li>Room Rent</li>
-            <li>Visitor Policy</li>
-          </ul>
+            <h5>Oporajoyee Abashon</h5>
+            <ul>
+                <li>About Oporajoyee Abashon</li>
+                <li>Service Details</li>
+                <li>Room Rent</li>
+                <li>Visitor Policy</li>
+            </ul>
         </div>
 
         <div class="footer-contact-us">
-          <h5>Contact With Us</h5>
-          <ul>
-            <li>
-              <span class="fa fa-map-marker-alt"></span> &nbsp; 26 Green Road,
-              Dhaka -1205
-            </li>
-            <li>
-              <span class="fa fa-envelope"></span> &nbsp; info@labaidcancer.com
-            </li>
-            <li>
-              <div class="social-links">
-                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </div>
-            </li>
-          </ul>
-          <div class="hot-line">
-            <div class="hot-line-contact">
-              <img
-                src="./images/white-hot-line.png"
-                class="img-fluid"
-                alt="hot line contact"
-              />
-              <div class="hot-line-meta-content">
-                <h3>hotline</h3>
-                <h3>10664</h3>
-              </div>
+            <h5>Contact With Us</h5>
+            <ul>
+                <li>
+                    <span class="fa fa-map-marker-alt"></span> &nbsp; 26 Green Road,
+                    Dhaka -1205
+                </li>
+                <li>
+                    <span class="fa fa-envelope"></span> &nbsp; info@labaidcancer.com
+                </li>
+                <li>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="hot-line">
+                <div class="hot-line-contact">
+                    <img
+                            src="./images/white-hot-line.png"
+                            class="img-fluid"
+                            alt="hot line contact"
+                    />
+                    <div class="hot-line-meta-content">
+                        <h3>hotline</h3>
+                        <h3>10664</h3>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="hr-line"></div>
-      <p class="copyright-text">
+    </div>
+    <div class="hr-line"></div>
+    <p class="copyright-text">
         All Copyrights Reserved By Labaid Cancer Hospital & Super Specilaity
         Centre
-      </p>
-    </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="scroll_element_detector.js"></script>
-    <!-- <script src="video-js.css"></script> -->
-    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    </p>
+</section>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+></script>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="scroll_element_detector.js"></script>
+<!-- <script src="video-js.css"></script> -->
+<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-    <script>
+<script>
 
-        // In your Javascript (external .js resource or <script> tag)
-        $(document).ready(function() {
-            $('.doctor-select').select2();
-        });
+    // In your Javascript (external .js resource or <script> tag)
+    $(document).ready(function () {
+        $('.doctor-select').select2();
+    });
 
-      if (document.getElementById("vid1")) {
+    if (document.getElementById("vid1")) {
         videojs("vid1").ready(function () {
-          var myPlayer = this;
+            var myPlayer = this;
 
-          //Set initial time to 0
-          var currentTime = 0;
+            //Set initial time to 0
+            var currentTime = 0;
 
-          //This example allows users to seek backwards but not forwards.
-          //To disable all seeking replace the if statements from the next
-          //two functions with myPlayer.currentTime(currentTime);
+            //This example allows users to seek backwards but not forwards.
+            //To disable all seeking replace the if statements from the next
+            //two functions with myPlayer.currentTime(currentTime);
 
-          myPlayer.on("seeking", function (event) {
-            if (currentTime < myPlayer.currentTime()) {
-              myPlayer.currentTime(currentTime);
-            }
-          });
+            myPlayer.on("seeking", function (event) {
+                if (currentTime < myPlayer.currentTime()) {
+                    myPlayer.currentTime(currentTime);
+                }
+            });
 
-          myPlayer.on("seeked", function (event) {
-            if (currentTime < myPlayer.currentTime()) {
-              myPlayer.currentTime(currentTime);
-            }
-          });
+            myPlayer.on("seeked", function (event) {
+                if (currentTime < myPlayer.currentTime()) {
+                    myPlayer.currentTime(currentTime);
+                }
+            });
 
-          setInterval(function () {
-            if (!myPlayer.paused()) {
-              currentTime = myPlayer.currentTime();
-            }
-          }, 1000);
+            setInterval(function () {
+                if (!myPlayer.paused()) {
+                    currentTime = myPlayer.currentTime();
+                }
+            }, 1000);
         });
-      }
-    </script>
-  </body>
+    }
+</script>
+</body>
 </html>

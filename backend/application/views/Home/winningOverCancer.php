@@ -1,11 +1,11 @@
 <section style="top: -122px; position: relative;">
-    <img class="img-fluid w-100" src="../images/banner/winning-cancer.png" alt="">
+    <img class="img-fluid w-100" src="<?php echo base_url(); ?>asset/frontend/images/banner/winning-cancer.png" alt="">
 </section>
 <section id="winning-cancer" class="container">
     <div class="row">
         <div class="col-md-6">
             <div class="profile">
-                <img class="img-fluid w-100 " src="../images/winning-cancer.png" alt="">
+                <img class="img-fluid w-100 " src="<?php echo base_url(); ?>asset/frontend/images/winning-cancer.png" alt="">
             </div>
         </div>
         <div class="col-md-6 right-content">
@@ -40,14 +40,14 @@
         </div>
         <div class="col-md-6">
             <div class="profile shadow">
-                <img class="img-fluid w-100 " src="../images/winning-cancer2.png" alt="">
+                <img class="img-fluid w-100 " src="<?php echo base_url(); ?>asset/frontend/images/winning-cancer2.png" alt="">
             </div>
         </div>
     </div>
     <div class="text-center" style="display: flex;padding-top: 189px;flex-direction: column;align-items: center;">
         <h5 class="title1 display-5">A Global Picture of</h5>
         <h1 class="title2 display-4">Cancer</h1>
-        <img class="img-fluid" src="../images/map.png" alt="">
+        <img class="img-fluid" src="<?php echo base_url(); ?>asset/frontend/images/map.png" alt="">
         <p class="col-lg-6" s>
             Cancer is increasing day after day. The 8 million cancer Death a year all over the world and 5 million will be in low-income countries. So, it’s very alarming. Many cancers in those countries are preventable. Tobacco-related cancer continues to be the fastest-growing type in those countries. As Cervical cancer could be preventable by vaccines other as Breast cancer can be avoidable through awareness. But treatment remains another hurdle in those countries. Many still do not have access to chemotherapy, Radiotherapy, Endocrine therapy, surgery, and other measures. It’s a burning question for the serious health crisis like cancer in a developing country like Bangladesh.
         </p>
@@ -55,7 +55,7 @@
     <div class="row" style="padding-top: 150px;">
         <div class="col-md-6 pb-3">
             <div class="profile shadow">
-                <img class="img-fluid w-100 " src="../images/early-diagnostic.png" alt="">
+                <img class="img-fluid w-100 " src="<?php echo base_url(); ?>asset/frontend/images/early-diagnostic.png" alt="">
             </div>
         </div>
         <div class="col-md-6 right-content">
@@ -90,7 +90,7 @@
         </div>
         <div class="col-md-6">
             <div class="profile shadow">
-                <img class="img-fluid w-100 " src="../images/hands-making-team 1.png" alt="">
+                <img class="img-fluid w-100 " src="<?php echo base_url(); ?>asset/frontend/images/hands-making-team 1.png" alt="">
             </div>
         </div>
     </div>
