@@ -65,7 +65,7 @@
 </section>
 
 
-<script src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
+
 
 <script>
     // $( document ).ready(function() {
@@ -83,21 +83,18 @@
             type: 'POST',
             data: {department: department},
             url: 'doctors/GetDoctorList',
-            dataType: 'json',
-            success: function (response) {
-                var count = 1;
-                if(response.length >0){
-                    $.each(response, function (index, value) {
-                        // var sn = count++;
-                        content += "<div class='col-lg-3 col-md-6 col-sm-12'><div class='team-one__single'> <div class='team-one__image'><img src='"+value.d_picture+"' alt='"+value.d_name+"' class='img-fluid' style='height:300px;' /></div><div class='team-one__content'> <div class='app-btns'><a class='team-one__appointment' href='doctor-appointment/"+value.d_slug+"'>Book Appointment</a></div><h3 class='team-one__title'><a href='doctor-details/"+value.d_slug+"'>"+value.d_name+"</a></h3><p class='team-one__speciality'>"+departmentName+"</p></div></div></div>";
-                    });
-                }
-                else{
-                    content += "<div class='alert alert-warning' role='alert'>No Doctor found at "+departmentName+" department.</div>"
-                }
 
-                document.getElementById("fulltable").innerHTML = content;
-                // callDatatable("dbtable");
+            success: function (response) {
+               console.log(response)
+
+                  //  content +="<a> al mamun</a>";
+
+
+
+
+              //  document.getElementById("fulltable").innerHTML = content;
+
+
             }
         });
 
