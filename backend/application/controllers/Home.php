@@ -145,6 +145,13 @@ class Home extends CI_Controller {
         $data['headimage']= $this->mc_model->single_page_header_slug('about');
         $this->tpl->client($data);
     }
+
+    function faq() {
+        $data['title'] = 'faq';
+        $data['body'] = 'Home/faq';
+
+        $this->tpl->client($data);
+    }
     //sagor
     function aboutOporajoyi() {
         $data['title'] = 'About Oporajoyi';
