@@ -250,7 +250,8 @@ class Doctors extends CI_Controller {
     function GetDoctorList() {
         $department = $this->input->post('department');
         $result = $this->dm->doctorBydepartment($department);
-        echo json_encode($result);
+        echo json_encode($result,JSON_PRETTY_PRINT);
+
     }
 
     function GetCancer() {
