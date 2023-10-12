@@ -3,31 +3,12 @@
 <!--</div>-->
 
 
-<?php
-$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$uri1 = $this->uri->segment(1);
-$uri2 = $this->uri->segment(2);
-$uri3 = $this->uri->segment(3);
-if (base_url() != current_url()) {
-    ?>
-    <nav aria-label="breadcrumb" class="container">
-        <ol class="breadcrumb "><!-- justify-content-center-->
-
-            <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-            <?php
-            if (!empty($uri1) & empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            } else {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($uri1) . "</a></li>";
-            }
-            if (!empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            }
-            ?>
-
-        </ol>
-    </nav>
-<?php } ?>
+<section class="department-banner" style="position: relative;top: -111px; height: 649px!important;">
+<br>
+<br>
+    <h5 class="title1 display-5">Oporajoyi</h5>
+    <h1 class="title2 display-4">Abashon</h1>
+</section>
 
 <div class="container" id="oporajoyi-details">
 

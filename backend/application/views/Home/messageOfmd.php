@@ -1,5 +1,5 @@
 <section id="md-banner" style="top: -122px; position: relative;">
-    <img class="img-fluid w-100" src="../images/banner/chairman-banner.png" alt="">
+    <img class="img-fluid w-100" src="../images/banner/msg-of-md.png" alt="">
 </section>
 <section id="md" class="container">
     <div class="row">

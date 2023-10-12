@@ -56,5 +56,5 @@ if (base_url() != current_url()) {
                 </div>
             <?php endforeach; ?>
         </div>
-    </div><!-- /.container -->
+    </div>
 </section>

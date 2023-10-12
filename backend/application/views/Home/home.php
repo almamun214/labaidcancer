@@ -45,7 +45,7 @@
                   <h2 >Doctor</h2>
                   <p class="card-text">The complete integrated cancer hospital with forefront of medical technologies and expertise in Bangladesh.</p>
                   <br>
-                  <a href="<?php echo base_url('appointment'); ?>" class="btn lp-btn-outline-primary">Get Appointment</a>
+                  <a href="<?php echo base_url('doctors'); ?>" class="btn lp-btn-outline-primary">Find</a>
                 </div>
               </span>
                 </div>
@@ -55,18 +55,19 @@
                 <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;" >
               <span>
                 <h1><i class="fa-solid fa-magnifying-glass-chart" style=" padding-left:16px;"></i></h1>
-                <div class="card-body">
-                  <h1 class="display-6">Send</h1>
-                  <h2 >Query</h2>
-                  <p class="card-text">
-                    <ul class="fa-ul">
-                      <li><span class="fa-li"><i class="fa-solid fa-user-doctor"></i></span>Experienced Doctors</li>
-                      <li><span class="fa-li"><i class="fa-solid fa-user-tie"></i></span>Dedicated Professional Staffs</li>
-                      <li><span class="fa-li"><i class="fa-solid fa-headset"></i></span>24 Hours Emergency Service</li>
-                    </ul>
-                    </p>
-
-                </div>
+                <a href="#get-in-touch" style="color:white;">
+                  <div class="card-body">
+                    <h1 class="display-6">Send</h1>
+                    <h2 >Query</h2>
+                    <p class="card-text">
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fa-solid fa-user-doctor"></i></span>Experienced Doctors</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-user-tie"></i></span>Dedicated Professional Staffs</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-headset"></i></span>24 Hours Emergency Service</li>
+                      </ul>
+                      </p>
+                  </div>
+                </a>
               </span>
                 </div>
             </div>
@@ -74,26 +75,28 @@
                 <div class="card service_card rounded-5 p-4 shadow" style="min-width: 257px;">
               <span>
                 <h1><i class="fa-solid fa-calendar-days" style=" padding-left:16px;"></i></h1>
-                <div class="card-body">
-                  <h1 class="display-6">Get</h1>
-                  <h2 >Appointment</h2>
-                  <p class="card-text">
-                    <table class="table">
-                      <tr>
-                        <td>Mon - Friday</td>
-                        <td class="text-end">8:00 - 10:30</td>
-                      </tr>
-                      <tr>
-                        <td>Mon - Friday</td>
-                        <td class="text-end">8:00 - 10:30</td>
-                      </tr>
-                      <tr>
-                        <td>Mon - Friday</td>
-                        <td class="text-end">8:00 - 10:30</td>
-                      </tr>
-                    </table>
-                    </p>
-                </div>
+                <a href="<?php echo base_url('appointment'); ?>" style="color:white;">
+                  <div class="card-body">
+                    <h1 class="display-6">Get</h1>
+                    <h2 >Appointment</h2>
+                    <p class="card-text">
+                      <table class="table">
+                        <tr>
+                          <td>Sat - Friday</td>
+                          <td class="text-end">8:00 - 10:30</td>
+                        </tr>
+                        <tr>
+                          <td>Sat - Friday</td>
+                          <td class="text-end">8:00 - 10:30</td>
+                        </tr>
+                        <tr>
+                          <td>Sat - Friday</td>
+                          <td class="text-end">8:00 - 10:30</td>
+                        </tr>
+                      </table>
+                      </p>
+                  </div>
+                </a>
               </span>
                 </div>
             </div>
@@ -135,7 +138,7 @@
                   <span>
                     <h1 class="ps-3"><i class="fa-solid fa-user-doctor" ></i></h1>
                     <div class="card-body">
-                      <p class="card-text">Advanched</p>
+                      <p class="card-text">Advanced</p>
                       <h5 class="card-title">Care</h5>
                     </div>
                   </span>
@@ -180,7 +183,7 @@
                     <h1 class="ps-3"><i class="fa-solid fa-user-doctor" ></i></h1>
                     <div class="card-body">
                       <p class="card-text">Special</p>
-                      <h5 class="card-title">Surgerist</h5>
+                      <h5 class="card-title">Surgeon</h5>
                     </div>
                   </span>
                         </div>
@@ -207,7 +210,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4   d-flex justify-content-center">
                     <div class="card service_card  p-4 ">
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-brain" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Brain</h5>
                       <p class="card-text">Oncology</p>
@@ -218,7 +221,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4   d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-head-side-mask" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Thyroid</h5>
                       <p class="card-text">Oncology</p>
@@ -229,7 +232,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4   d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-lungs" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Lungs</h5>
                       <p class="card-text">Oncology</p>
@@ -240,10 +243,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4   d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-bone" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Bone</h5>
-                      <p class="card-text">Oncology</p>
+                      <p class="card-text">Cancer</p>
                     </div>
                   </span>
                     </div>
@@ -251,10 +254,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4  d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-eye" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Eye</h5>
-                      <p class="card-text">Oncology</p>
+                      <p class="card-text">Cancer</p>
                     </div>
                   </span>
                     </div>
@@ -262,7 +265,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4   d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-figma" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Blood</h5>
                       <p class="card-text">Oncology</p>
@@ -273,7 +276,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4 d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-brands fa-jenkins" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Skin</h5>
                       <p class="card-text">Oncology</p>
@@ -295,7 +298,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-4 d-flex justify-content-center">
                     <div class="card service_card  p-4 " >
                   <span>
-                    <h1><i class="fa-solid fa-user-doctor" ></i></h1>
+                    <h1><i class="fa-solid fa-person-breastfeeding" ></i></h1>
                     <div class="card-body">
                       <h5 class="card-title">Breast</h5>
                       <p class="card-text">Cancer</p>
@@ -346,13 +349,15 @@
                 foreach ($doctor as $doc) :
                     ?>
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <a href="<?php echo base_url('doctor-details/' . $doc->d_slug); ?>">
                         <div class="card text-center align-items-center mb-5" style="min-width: 12rem;">
                             <img src="<?php echo base_url($doc->d_picture); ?>" class="card-img-top rounded-3" alt="<?php echo $doc->d_name; ?>" style="width: 224px; height: 306px; object-fit: cover;">
-                            <div class="card-body rounded-3 shadow"  >
+                            <div class="card-body rounded-3 w-100 shadow"  >
                                 <h6 class="card-title"><?php echo $doc->d_name; ?></h6>
                                 <p class="card-text"><?php echo $doc->dd_name; ?></p>
                             </div>
                         </div>
+                      </a>
                     </div>
                     <?php
                     if ($count <= 7) {
@@ -445,19 +450,19 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/award/award1.png" class="d-block w-100" alt="...">
+                            <img src="<?php echo base_url(); ?>asset/frontend/images/award/award2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-md-6 ps-5">
-                            <h1 class="display-5">Recognized by</h1>
-                            <h1 style="color: #8A73AD;">“Silicon India”</h1>
-                            <h1 class="display-5">Fortune India Magazine</h1>
+                            <h1 class="display-5">Continuing Medical Education</h1>
+                            <h1 style="color: #8A73AD;">“CME Program”</h1>
+                            <h1 class="display-5">on Microwave Ablation (MWA)</h1>
                             <br>
                             <div  style="text-align: justify;">
-                                <p>We are delighted to announce with great pleasure that Mr. Sakif Shamim, the esteemed Managing Director of Labaid Cancer Hospital and Super Speciality Centre, has been featured in Silicon India Magazine titled "LABAID CANCER HOSPITAL - BEATING CANCER WITH ITS COMPREHENSIVE CANCER CARE"</p>
+                                <p>On 17 2023, Labaid Cancer Hospital and Super Speciality Centre organized a Continuous Medical Education (CME) on Microwave Ablation (MWA), a medical advancement technique. Microwave Ablation (MWA) is a minimally invasive medical procedure used in the treatment of certain types of tumors or abnormal tissue growth. It is a localized therapy that utilizes high-frequency electromagnetic waves to generate heat and destroy targeted tissues</p>
                                 <br>
-                                <p>We at Labaid Cancer Hospital and Super Speciality Centre are thrilled by this outstanding accomplishment and send our warmest congratulations and best wishes for continued success to him.</p>
+                                <p>Introduction to the CME done by Dr. George Noel Fernandes (Chief Operating Officer, Labaid Cancer Hospital and Super Speciality Centre). Prof. Dr. Bishwajit Bhowmik (Senior Consultant, Interventional Radiology) gave a brief history of the MWA as well as an overview of its past, present, and future. A Q&A session was also held.</p>
                                 <br>
-                                <p>Silicon India, A platform that resonates with engaging and informative content, Silicon India entails the editorial coverage of successful entrepreneurs, proficient CEOs, industry leaders, well-versed technologists and many others. It brings in the nuances of both US and Indian technologies across the content delivered and stands as one of largest ecosystems encompassing the perspectives and business ideas of eminent professionals in the world.</p>
+                                <p>Senior Consultants, Consultants of Labaid Cancer Hospital and Super Speciality Centre and other hospitals, and all other Senior Officials from the Labaid Cancer Hospital and Super Speciality Centre were present as special guests. The vote of thanks was given by Mr. Amitavo Bhattacharyya (Head of Business, Labaid Cancer Hospital and Super Speciality Centre)</p>
                             </div>
                         </div>
                     </div>
@@ -465,19 +470,38 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/award/award1.png" class="d-block w-100" alt="...">
+                            <img src="<?php echo base_url(); ?>asset/frontend/images/award/award3.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-md-6 ps-5">
                             <h1 class="display-5">Recognized by</h1>
-                            <h1 style="color: #8A73AD;">“Silicon India”</h1>
+                            <h1 style="color: #8A73AD;">40 Under 40</h1>
                             <h1 class="display-5">Fortune India Magazine</h1>
                             <br>
                             <div  style="text-align: justify;">
-                                <p>We are delighted to announce with great pleasure that Mr. Sakif Shamim, the esteemed Managing Director of Labaid Cancer Hospital and Super Speciality Centre, has been featured in Silicon India Magazine titled "LABAID CANCER HOSPITAL - BEATING CANCER WITH ITS COMPREHENSIVE CANCER CARE"</p>
+                                <p>It is our immense pleasure to share that Mr. Sakif Shamim, the Managing Director of Labaid Cancer Hospital and Super Speciality Centre, has been featured in 40 under 40, Fortune India Magazine titled "TRANSFORMING HEALTHCARE LABAID GROUP WITH VISION, COMPASSION AND EFFICIENCY".</p>
                                 <br>
                                 <p>We at Labaid Cancer Hospital and Super Speciality Centre are thrilled by this outstanding accomplishment and send our warmest congratulations and best wishes for continued success to him.</p>
                                 <br>
-                                <p>Silicon India, A platform that resonates with engaging and informative content, Silicon India entails the editorial coverage of successful entrepreneurs, proficient CEOs, industry leaders, well-versed technologists and many others. It brings in the nuances of both US and Indian technologies across the content delivered and stands as one of largest ecosystems encompassing the perspectives and business ideas of eminent professionals in the world.</p>
+                                <p>Fortune India traces the economic and financial journey of one of the most exciting countries in the world. A leader in business journalism, it is read by top decision makers. Their franchises include the Fortune India 500, the Most Powerful Women in Business and the 40-under-40.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>asset/frontend/images/award/award4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-md-6 ps-5">
+                            <h1 class="display-5">Recognized by</h1>
+                            <h1 style="color: #8A73AD;">“Forbes” Magazine titled"</h1>
+                            <h1 class="display-5">Person of the Year</h1>
+                            <br>
+                            <div  style="text-align: justify;">
+                                <p>It is our immense pleasure to share that Mr. Sakif Shamim, the Managing Director of Labaid Cancer Hospital and Super Speciality Centre, has been featured in Forbes as the person of the year 2023. He is the first person from Bangladesh who has achieved this milestone at Forbes’ cover story.</p>
+                                <br>
+                                <p>We at Labaid Cancer Hospital and Super Speciality Centre are thrilled by this outstanding accomplishment and send our warmest congratulations and best wishes for continued success to him.</p>
+                                <br>
                             </div>
                         </div>
                     </div>

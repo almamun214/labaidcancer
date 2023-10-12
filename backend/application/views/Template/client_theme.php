@@ -1,9 +1,48 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php if(current_url() !=base_url()){echo @$title." ||";} ?>  Labaid Cancer Hospital and Super Speciality Center || Winning Cancer</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N90S6ZR1HX"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-N90S6ZR1HX');
+        </script>
+
+
+            <!-- Facebook Pixel Code -->
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+             fbq('init', '758079729224214'); 
+            fbq('track', 'PageView');
+            </script>
+            <noscript>
+             <img height="1" width="1" 
+            src="https://www.facebook.com/tr?id=758079729224214&ev=PageView
+            &noscript=1"/>
+            </noscript>
+            <!-- End Facebook Pixel Code -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="facebook-domain-verification" content="roozlwlfsv5rqt4bzbyvk78xtbpkiz" />
+        <title><?php if(current_url() !=base_url()){echo @$title." ||";} ?>  Labaid Cancer Hospital and Super Speciality Center || Winning Cancer</title>
+        
+        <meta name="description" content="<?php echo @$metadescription; if(empty(@$metadescription)){
+        echo 'Labaid Cancer Hospital and Super Speciality Center is the first comprehensive cancer hospital located at 26 green road, Dhaka, Bangladesh';
+        }?>">
+        <meta name="keywords" content="<?php echo @$keyword; if(empty(@$keyword)){
+        echo 'Labaid, Labaid Cancer Hospital';} ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/styles.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/frontend/style-sagor.css">
@@ -14,7 +53,9 @@
     <link rel="shortcut icon" href="<?php echo base_url(); ?>asset/images/resources/icon.png">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/gallery/simplelightbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
-
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.min.css">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        
 </head>
 
 
@@ -49,7 +90,7 @@
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('comprehensive_care'); ?>"><div class="sub-menu-text">Our Comprehensive Care Team</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('diagnosis_treatment'); ?>"><div class="sub-menu-text">Diagnosis & Treatment</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('faq'); ?>"><div class="sub-menu-text">FAQ</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Contact With Us</div></a></li>
+                        <!-- <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Contact With Us</div></a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item dropdown ms-3">
@@ -75,10 +116,10 @@
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('blog/success-story'); ?>"><div class="sub-menu-text">News & Article</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('awards_recognition'); ?>"><div class="sub-menu-text">Award Recognition</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Gallary</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Healthtips</div></a></li>
+                        <!-- <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Gallary</div></a></li> -->
+                        <!-- <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Healthtips</div></a></li>
                         <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Career</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Certification</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Certification</div></a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item dropdown ms-3">
@@ -86,10 +127,10 @@
                         OPORAJOYEE ABASHON
                     </a>
                     <ul class="dropdown-menu animate__animated animate__fadeIn border-0 shadow"  aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">About Oporajoyee Abashon</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Service Details</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Room Rent</div></a></li>
-                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Visitor Policy</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('aboutOporajoyi'); ?>"><div class="sub-menu-text">About Oporajoyee Abashon</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="<?php echo base_url('serviceDetails'); ?>"><div class="sub-menu-text">Service Details</div></a></li>
+                        <!-- <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Room Rent</div></a></li>
+                        <li><a class="dropdown-item p-3 ps-5 pe-5" href="#"><div class="sub-menu-text">Visitor Policy</div></a></li> -->
                     </ul>
                 </li>
             </ul>
@@ -97,14 +138,16 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-            <form class="d-flex" role="search">
+            
                 <!-- <a class="kb-btn kb-btn-1 ms-4">Login or Sign Up</a> -->
-                <div class="ms-4 d-flex align-items-center">
+                <!-- <div class="ms-4 d-flex align-items-center">
                     <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-                </div>
-
-                <button class="btn lp-btn-outline-primary ms-4">Get Appointment</button>
-            </form>
+                </div> -->
+            <a href="<?php echo base_url('appointment'); ?>">
+            <button class="btn lp-btn-outline-primary ms-4">Get Appointment</button>
+            </a>
+                
+           
             <!-- <button type="button" class="btn btn-link"><span class="bi bi-cart"></span></button> -->
         </div>
     </div>
@@ -125,14 +168,17 @@
             </div>
             <div class="col-md-7">
 
-                <form action="">
+               
                     <div class="form-group">
-                        <input class="form-control " type="text" placeholder="Enter Your Mail" style="padding: 1.5rem 3rem;">
+                        <input class="form-control form-control-lg " name="nsname" id="nsname" type="text" placeholder="Full Name">
                     </div>
                     <div class="form-group pt-4">
-                        <button class="btn lp-btn-outline-primary" style="padding:7px 59px;">Submit</button>
+                        <input class="form-control form-control-lg " name="nsemail" id="nsemail" type="text" placeholder="email@example.com" >
                     </div>
-                </form>
+                    <div class="form-group pt-4">
+                        <button class="btn lp-btn-outline-primary" onclick="subscribe()" style="padding:7px 59px;">Submit</button>
+                    </div>
+              
 
             </div>
         </div>
@@ -282,7 +328,10 @@
         </div> -->
 
         <div class="footer-logo">
+            <a href="/">
             <img src="<?php echo base_url(); ?>asset/frontend/images/logo-footer.png" alt="">
+            </a>
+            
         </div>
 
         <div class="footer-about-us">
@@ -305,9 +354,9 @@
         <div class="footer-services">
             <h5>Services</h5>
             <ul>
-                <li> <a href="">Doctor</a> </li>
+                <li> <a href="<?php echo base_url('doctors'); ?>">Doctor</a> </li>
 
-                <li> <a href="">Diagnostic Test</a></li>
+                <li> <a href="<?php echo base_url('diagnostictest'); ?>">Diagnostic Test</a></li>
 
             </ul>
         </div>
@@ -315,10 +364,10 @@
         <div class="footer-oporajoyee-abashon">
             <h5>Oporajoyee Abashon</h5>
             <ul>
-                <li>About Oporajoyee Abashon</li>
-                <li>Service Details</li>
-                <li>Room Rent</li>
-                <li>Visitor Policy</li>
+                <li><a  href="<?php echo base_url('aboutOporajoyi'); ?>">About Oporajoyee Abashon</a></li>
+                <li><a  href="<?php echo base_url('serviceDetails'); ?>">Service Details</a></li>
+                <!-- <li>Room Rent</li>
+                <li>Visitor Policy</li> -->
             </ul>
         </div>
 
@@ -329,11 +378,11 @@
                 <li><span class="fa fa-envelope"></span> &nbsp; info@labaidcancer.com</li>
                 <li>
                     <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/labaidcancerhospital"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/labaid-cancer-hospital/"><i class="fa fa-linkedin"></i></a>
+                        <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
                     </div>
+                  
                 </li>
             </ul>
             <div class="hot-line">
@@ -349,7 +398,7 @@
         </div>
     </div>
     <div class="hr-line"></div>
-    <p class="copyright-text">All Copyrights Reserved By Labaid Cancer Hospital & Super Specilaity Centre</p>
+    <p class="copyright-text">© 2023 All Copyrights Reserved By Labaid Cancer Hospital & Super Specilaity Centre</p>
 </section>
 
 
@@ -359,51 +408,60 @@
 
 <!-- <script src="video-js.css"></script> -->
 <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
-<script src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
+<!-- <script src="<?php echo base_url(); ?>asset/js/jquery.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="<?php echo base_url(); ?>asset/gallery/simple-lightbox.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
 
 
 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 <script>
+    function subscribe() {
+        
+        var name = $("#nsname").val();
 
-    if (document.getElementById("vid1")) {
-        videojs("vid1").ready(function() {
+        var email = $("#nsemail").val();
 
-            var myPlayer = this;
+        if (name == "" || email == "") {
+            alert("Name and Email is required");
+        } else {
 
-            //Set initial time to 0
-            var currentTime = 0;
+            var form_data = new FormData();
+            form_data.append('name', $("#nsname").val());
+            form_data.append('email', $("#nsemail").val());
+            
 
-            //This example allows users to seek backwards but not forwards.
-            //To disable all seeking replace the if statements from the next
-            //two functions with myPlayer.currentTime(currentTime);
-
-            myPlayer.on("seeking", function(event) {
-                if (currentTime < myPlayer.currentTime()) {
-                    myPlayer.currentTime(currentTime);
+            $.ajax({
+                
+                type: 'POST',
+                data: form_data,
+                url: '<?php echo base_url(); ?>subscriber/addsubscriber',
+                dataType: 'json',
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    if(response==true){
+                        alert("Successfully Subscribed");
+                        location.reload();
+                    }else{
+                        alert("Need Valid Email and Name");
+                        
+                    }
                 }
             });
+        }
 
-            myPlayer.on("seeked", function(event) {
-                if (currentTime < myPlayer.currentTime()) {
-                    myPlayer.currentTime(currentTime);
-                }
-            });
 
-            setInterval(function() {
-                if (!myPlayer.paused()) {
-                    currentTime = myPlayer.currentTime();
-                }
-            }, 1000);
-
-        });
     }
-
-
+    $(".alert").delay(2000).slideUp(200, function () {
+        $(this).alert('close');
+    });
+    $(".chosen-select").chosen();
 </script>
-
-
 </body>
 </html>

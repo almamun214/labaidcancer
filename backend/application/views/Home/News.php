@@ -35,240 +35,284 @@
 </section>
 
 <!-- Start:: News & Article -->
-<section id="articles">
+<section id="articles" class="pb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/1 207.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Labaid Cancer Hospital & Super Specialty Center Open 4 New Centre</h5>
-                        <button type="button" class="article-date">12 June 2023</button>
+                <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/1 207.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Labaid Cancer Hospital & Super Specialty Center Open 4 New Centre</h5>
+                            <button type="button" class="article-date">12 June 2023</button>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/2.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Celebrating International Nurses Day</h5>
-                        <button type="button" class="article-date">12 May 2023</button>
+                <a href="<?php echo base_url('blog-post/International-Nurses-Day-2023'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/2.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Celebrating International Nurses Day</h5>
+                            <button type="button" class="article-date">12 May 2023</button>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-right: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/3.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Labaid Cancer Hospital & Super Specialty Center completed 100 surgeries without surgical site infection</h5>
-                                <button type="button" class="article-date">May 2023</button>
+                        <a href="<?php echo base_url('blog-post/Labaid-Cancer-Hospital-Super-Specialty-Center-completes-100-successful-surgeries'); ?>">
+                            <div class="article " style="margin-right: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/3.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Labaid Cancer Hospital & Super Specialty Center completed 100 surgeries without surgical site infection</h5>
+                                    <button type="button" class="article-date">May 2023</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/4.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Labaid Cancer Hospital Plans to Go Public" was published in The Daily Star</h5>
-                                <button type="button" class="article-date">March 2023</button>
+                        <a href="<?php echo base_url('blog-post/Labaid-Cancer-Hospital-Plans-to-Go-Public'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/4.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Labaid Cancer Hospital Plans to Go Public" was published in The Daily Star</h5>
+                                    <button type="button" class="article-date">March 2023</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/5 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Celebrating World Cancer Day</h5>
-                        <button type="button" class="article-date">5 Feb 2023</button>
+                <a href="<?php echo base_url('blog-post/Celebrate-World-Cancer-Day-2022'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/5 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Celebrating World Cancer Day</h5>
+                            <button type="button" class="article-date">5 Feb 2023</button>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-right: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/7 80.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Art Camp known as “Spreading Happiness” is a unique initiative of LabAid Cancer Hospital & Super Specialty Center.</h5>
-                                <button type="button" class="article-date">15-22 Dec 2022</button>
+                        <a href="<?php echo base_url('blog-post/Art-Camp-known-as-Spreading-Happiness-is-a-unique-initiative-of-LabAid-Cancer-Hospital-Super-Speciality-Centre'); ?>">
+                            <div class="article " style="margin-right: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/7 80.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Art Camp known as “Spreading Happiness” is a unique initiative of LabAid Cancer Hospital & Super Specialty Center.</h5>
+                                    <button type="button" class="article-date">15-22 Dec 2022</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/8 1.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Patient Family Advisory Council Program</h5>
-                                <button type="button" class="article-date">15-22 Dec 2022</button>
+                        <a href="<?php echo base_url('blog-post/Patient-Family-Advisory-Council-December-2022'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/8 1.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Patient Family Advisory Council Program</h5>
+                                    <button type="button" class="article-date">15-22 Dec 2022</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/6 1062.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Inauguration of 30-bed Chemo-Day Care with state-of-the-art facilities</h5>
-                        <button type="button" class="article-date">31 Feb 2022</button>
+                <a href="<?php echo base_url('blog-post/Inauguration-of-30-bed-Chemo-Day-Care-with-state-of-the-art-facilities'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/6 1062.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Inauguration of 30-bed Chemo-Day Care with state-of-the-art facilities</h5>
+                            <button type="button" class="article-date">31 Feb 2022</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6 col-sm-12">
+                <a href="<?php echo base_url('blog-post/Inauguration-of-30-bed-Chemo-Day-Care-with-state-of-the-art-facilities'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/0770d02ea1c4a5fdeac2fd58b646226d 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Inauguration of 30-bed Chemo-Day Care with state-of-the-art facilities</h5>
+                            <button type="button" class="article-date">19 Oct 2022</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <a href="<?php echo base_url('blog-post/Inauguration-of-Corporate-Lounge-and-Vaccination-Center'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/10 207.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Inauguration of Corporate Lounge and Vaccination Center</h5>
+                            <button type="button" class="article-date">12 Oct 2022</button>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="d-flex">
+                    <div class="col-6 mt-3">
+                        <a href="<?php echo base_url('blog-post/World-Mental-Health-Day-2022'); ?>">
+                            <div class="article " style="margin-right: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/11 2.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Celebrating World Mental Health Day</h5>
+                                    <button type="button" class="article-date">10 Oct 2022</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <a href="<?php echo base_url('blog-post/Employee-Engagement-Program'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/12 2.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Conducted employee engagement programs</h5>
+                                    <button type="button" class="article-date">22 Sept 2022</button>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/0770d02ea1c4a5fdeac2fd58b646226d 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Inauguration of 30-bed Chemo-Day Care with state-of-the-art facilities</h5>
-                        <button type="button" class="article-date">19 Oct 2022</button>
+                <a href="<?php echo base_url('blog-post/Celebrating-World-Pharmacist-Day-2021'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/13 2.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Celebrating World Pharmacist Day</h5>
+                            <button type="button" class="article-date">25 Sept 2022</button>
+                        </div>
+                    </div>
+                </a>
+                <div class="d-flex">
+                    <div class="col-6 mt-3">
+                        <a href="<?php echo base_url('blog-post/International-Standard-Tumor-Board'); ?>">
+                            <div class="article " style="margin-right: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/15 2.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Held by International Standards Tumor Board</h5>
+                                    <button type="button" class="article-date">1 Sept 2022</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <a href="<?php echo base_url('blog-post/linac-2-launching-programme'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/16 1.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Inauguration of Second Radiotherapy Machine (LINAC).</h5>
+                                    <button type="button" class="article-date">10 Aug 2022</button>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/10 207.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Inauguration of Corporate Lounge and Vaccination Center</h5>
-                        <button type="button" class="article-date">12 Oct 2022</button>
+                <a href="<?php echo base_url('blog-post/Patient-Safety-Day-2022-Celebration'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/14 2.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Celebrating World Patient Safety Day</h5>
+                            <button type="button" class="article-date">17 Sept 2022</button>
+                        </div>
                     </div>
-                </div>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6 col-sm-12">
+                <a href="<?php echo base_url('blog-post/Official-Collaboration-with-SingHealth-2022'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/17 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Signing of Memorandum of Understanding between Singapore Health Authority and LabAid Group</h5>
+                            <button type="button" class="article-date">14 July 2022</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <a href="<?php echo base_url('blog-post/International-Award-Reception-Ceremony-2022'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/18 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Organization of reception for receiving international awards</h5>
+                            <button type="button" class="article-date">5 July 2022</button>
+                        </div>
+                    </div>
+                </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-right: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/11 2.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Celebrating World Mental Health Day</h5>
-                                <button type="button" class="article-date">10 Oct 2022</button>
+                        <a href="<?php echo base_url('blog-post/Patients-First-Program'); ?>">
+                            <div class="article " style="margin-right: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/19 2.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Inauguration of 7-day Patient First Program</h5>
+                                    <button type="button" class="article-date">16 June 2022</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>    
                     </div>
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/12 2.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Conducted employee engagement programs</h5>
-                                <button type="button" class="article-date">22 Sept 2022</button>
+                        <a href="<?php echo base_url('blog-post/Patient-Family-Advisory-Council-May-2022'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/20 23.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Patient Family Advisory Council Program</h5>
+                                    <button type="button" class="article-date">May 2022</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>    
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/13 2.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Celebrating World Pharmacist Day</h5>
-                        <button type="button" class="article-date">25 Sept 2022</button>
+                <a href="<?php echo base_url('blog-post/International-Nurses-Day-2022'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/21 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Celebrating International Nurses Day</h5>
+                            <button type="button" class="article-date">12 May 2022</button>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-right: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/15 2.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Held by International Standards Tumor Board</h5>
-                                <button type="button" class="article-date">1 Sept 2022</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/16 1.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Inauguration of Second Radiotherapy Machine (LINAC).</h5>
-                                <button type="button" class="article-date">10 Aug 2022</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/14 2.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Celebrating World Patient Safety Day</h5>
-                        <button type="button" class="article-date">17 Sept 2022</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/17 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Signing of Memorandum of Understanding between Singapore Health Authority and LabAid Group</h5>
-                        <button type="button" class="article-date">14 July 2022</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/18 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Organization of reception for receiving international awards</h5>
-                        <button type="button" class="article-date">5 July 2022</button>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="col-6 mt-3">
-                        <div class="article " style="margin-right: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/19 2.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Inauguration of 7-day Patient First Program</h5>
-                                <button type="button" class="article-date">16 June 2022</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/20 23.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Patient Family Advisory Council Program</h5>
-                                <button type="button" class="article-date">May 2022</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/21 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Celebrating International Nurses Day</h5>
-                        <button type="button" class="article-date">12 May 2022</button>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="col-6 mt-3">
+                    <a href="<?php echo base_url('blog-post/1st-anniversary-celebration-2022'); ?>">
                         <div class="article " style="margin-right: 8px;">
                             <div class="overlay-effect"></div>
                             <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/23 1.png" class="img-fluid" alt="">
@@ -277,52 +321,62 @@
                                 <button type="button" class="article-date">1 Mar 2022</button>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-6 mt-3">
-                        <div class="article " style="margin-left: 8px;">
-                            <div class="overlay-effect"></div>
-                            <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/24 1.png" class="img-fluid" alt="">
-                            <div class="article-content">
-                                <h5 class="article-title article-card-small">Auspicious inauguration of brachytherapy service</h5>
-                                <button type="button" class="article-date">7 Feb 2022</button>
+                        <a href="<?php echo base_url('blog-post/inauguration-ceremony-of-brachytherapy'); ?>">
+                            <div class="article " style="margin-left: 8px;">
+                                <div class="overlay-effect"></div>
+                                <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/24 1.png" class="img-fluid" alt="">
+                                <div class="article-content">
+                                    <h5 class="article-title article-card-small">Auspicious inauguration of brachytherapy service</h5>
+                                    <button type="button" class="article-date">7 Feb 2022</button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/22 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Patient Family Advisory Council Program</h5>
-                        <button type="button" class="article-date">Feb 2022</button>
+                <a href="<?php echo base_url('blog-post/Patient-Family-Advisory-Council-December-2021s'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/22 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Patient Family Advisory Council Program</h5>
+                            <button type="button" class="article-date">Feb 2022</button>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
-                <div class="article">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/25 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title">Celebrating World Cancer Day 2022</h5>
-                        <button type="button" class="article-date">Feb 2022</button>
+                <a href="<?php echo base_url('blog-post/Celebrate-World-Cancer-Day-2022'); ?>">
+                    <div class="article">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/25 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title">Celebrating World Cancer Day 2022</h5>
+                            <button type="button" class="article-date">Feb 2022</button>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="article ">
-                    <div class="overlay-effect"></div>
-                    <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/26 1.png" class="img-fluid" alt="">
-                    <div class="article-content">
-                        <h5 class="article-title article-card-medium">Star Performance Award</h5>
-                        <button type="button" class="article-date">Aug 2022</button>
+                <a href="<?php echo base_url('blog-post/Star-Performance-Award-August-2021'); ?>">
+                    <div class="article ">
+                        <div class="overlay-effect"></div>
+                        <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/26 1.png" class="img-fluid" alt="">
+                        <div class="article-content">
+                            <h5 class="article-title article-card-medium">Star Performance Award</h5>
+                            <button type="button" class="article-date">Aug 2022</button>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
+                    <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                         <div class="article " style="margin-right: 8px;">
                             <div class="overlay-effect"></div>
                             <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/27 1.png" class="img-fluid" alt="">
@@ -331,8 +385,10 @@
                                 <button type="button" class="article-date">Dec 2021</button>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-6 mt-3">
+                    <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                         <div class="article " style="margin-left: 8px;">
                             <div class="overlay-effect"></div>
                             <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/28 1.png" class="img-fluid" alt="">
@@ -341,12 +397,14 @@
                                 <button type="button" class="article-date">Dec 2021</button>
                             </div>
                         </div>
+                    </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
+            <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                 <div class="article ">
                     <div class="overlay-effect"></div>
                     <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/29 1.png" class="img-fluid" alt="">
@@ -355,8 +413,10 @@
                         <button type="button" class="article-date">Nov 2021</button>
                     </div>
                 </div>
+            </a>
                 <div class="d-flex">
                     <div class="col-6 mt-3">
+                    <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                         <div class="article " style="margin-right: 8px;">
                             <div class="overlay-effect"></div>
                             <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/31 7.png" class="img-fluid" alt="">
@@ -365,8 +425,10 @@
                                 <button type="button" class="article-date">Dec 2021</button>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-6 mt-3">
+                    <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                         <div class="article " style="margin-left: 8px;">
                             <div class="overlay-effect"></div>
                             <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/32 8712.png" class="img-fluid" alt="">
@@ -375,10 +437,12 @@
                                 <button type="button" class="article-date">Dec 2021</button>
                             </div>
                         </div>
+                    </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
+            <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                 <div class="article">
                     <div class="overlay-effect"></div>
                     <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/30 1.png" class="img-fluid" alt="">
@@ -387,10 +451,12 @@
                         <button type="button" class="article-date">16 Dec 2021</button>
                     </div>
                 </div>
+            </a>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-sm-12">
+            <a href="<?php echo base_url('blog-post/Health-Check-up-Camp-Diabetes-Awareness-Session'); ?>">
                 <div class="article">
                     <div class="overlay-effect"></div>
                     <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/33 1.png" class="img-fluid" alt="">
@@ -399,8 +465,10 @@
                         <button type="button" class="article-date">14 Nov 2021</button>
                     </div>
                 </div>
+            </a>
             </div>
             <div class="col-md-6 col-sm-12">
+            <a href="<?php echo base_url('blog-post/LCH-launches-4-new-centre'); ?>">
                 <div class="article ">
                     <div class="overlay-effect"></div>
                     <img src="<?php echo base_url(); ?>asset/frontend/images/news-article/34 1.png" class="img-fluid" alt="">
@@ -409,6 +477,7 @@
                         <button type="button" class="article-date">14 Mar 2016</button>
                     </div>
                 </div>
+            </a>
                 <!-- <div class="d-flex">
                   <div class="col-6 mt-3">
                     <div class="article " style="margin-right: 8px;">

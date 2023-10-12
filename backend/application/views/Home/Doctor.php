@@ -40,19 +40,22 @@
                 <?php endforeach; ?>
            </select>
        </div>
-    <div class="doctors-service_background container-fluid">
-        <div class="container" style="height: 16px; position: relative; top: -92px">
+    <div class="">
+        <div class="container">
             <div class="row justify-content-center" id="fulltable">
                 <?php foreach ($doctor as $doc): ?>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="card text-center align-items-center mb-5" style="min-width: 12rem">
-                        <img src="<?php echo base_url($doc->d_picture); ?>" class="card-img-top rounded-3" alt="<?php echo $doc->d_name; ?>"
-                             style="width: 224px; height: 306px; object-fit: cover"/>
-                        <div class="card-body rounded-3 shadow">
-                            <h6 class="card-title"><?php echo $doc->dd_name; ?></h6>
-                            <p class="card-text"><?php echo $doc->d_name; ?></p>
+                    <a href="<?php echo base_url('doctor-details/' . $doc->d_slug); ?>">
+                        <div class="card text-center align-items-center mb-5" style="min-width: 12rem">
+                            <img src="<?php echo base_url($doc->d_picture); ?>" class="card-img-top rounded-3" alt="<?php echo $doc->d_name; ?>"
+                                style="width: 224px; height: 306px; object-fit: cover"/>
+                            <div class="card-body rounded-3 w-100 shadow">
+                                <h6 class="card-title"><?php echo $doc->dd_name; ?></h6>
+                                <p class="card-text"><?php echo $doc->d_name; ?></p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+
                 </div>
                 <?php endforeach; ?>
 
@@ -67,6 +70,7 @@
 
 
 
+
 <script>
     // $( document ).ready(function() {
     //     callDatatable("dbtable");
@@ -74,27 +78,36 @@
 
 
     function getDoctors() {
+//         if (typeof jQuery != 'undefined') {  
+//     // jQuery is loaded => print the version
+//     alert(jQuery.fn.jquery);
+// }
         $("#fulltable").empty();
-        $("#all_doc").show();
+        // $("#all_doc").show();
         var content = '';
         var department = $("#department option:selected").val();
         var departmentName = $("#department option:selected").text();
         $.ajax({
+           
             type: 'POST',
             data: {department: department},
             url: 'doctors/GetDoctorList',
-
+            // dataType: 'json',
             success: function (response) {
-               console.log(response)
+                console.log(response);
+                var count = 1;
+                if(response.length >0){
+                    $.each(response, function (index, value) {
+                        // var sn = count++;
+                        content += "<div class='col-lg-3 col-md-6 col-sm-12'><div class='team-one__single'> <div class='team-one__image'><img src='"+value.d_picture+"' alt='"+value.d_name+"' class='img-fluid' style='height:300px;' /></div><div class='team-one__content'> <div class='app-btns'><a class='team-one__appointment' href='doctor-appointment/"+value.d_slug+"'>Book Appointment</a></div><h3 class='team-one__title'><a href='doctor-details/"+value.d_slug+"'>"+value.d_name+"</a></h3><p class='team-one__speciality'>"+departmentName+"</p></div></div></div>";
+                    });
+                }
+                else{
+                    content += "<div class='alert alert-warning' role='alert'>No Doctor found at "+departmentName+" department.</div>"
+                }
 
-                  //  content +="<a> al mamun</a>";
-
-
-
-
-              //  document.getElementById("fulltable").innerHTML = content;
-
-
+                document.getElementById("fulltable").innerHTML = content;
+                // callDatatable("dbtable");
             }
         });
 

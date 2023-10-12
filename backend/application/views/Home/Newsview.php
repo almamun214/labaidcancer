@@ -1,33 +1,38 @@
-
-<?php
-
-
-
-$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$uri1 = $this->uri->segment(1);
-$uri2 = $this->uri->segment(2);
-$uri3 = $this->uri->segment(3);
-if (base_url() != current_url()) {
-    ?>
-    <nav aria-label="breadcrumb" class="container">
-        <ol class="breadcrumb "><!-- justify-content-center-->
-
-            <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-            <?php
-            if (!empty($uri1) & empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            } else {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($uri1) . "</a></li>";
-            }
-            if (!empty($uri2)) {
-                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
-            }
-            ?>
-
-        </ol>
-    </nav>
-<?php } ?> 
-
+<!-- Start:: Slider -->
+<section
+    id="slider"
+    style="
+        top: -122px;
+        position: relative;
+        padding-bottom: 0px;
+        background-color: rgb(240, 245, 249);
+      "
+>
+    <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+    >
+        <div class="carousel-inner">
+            <div class="overlay"></div>
+            <div class="carousel-item active">
+                <img
+                    src="<?php echo base_url(); ?>asset/frontend/images/news-article/businessman-reading-daily-news 1.png"
+                    class="d-block w-100"
+                    alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block" style="top: 40%">
+                    <h1 class="display-6 animate__animated animate__fadeInUp">
+                        News &
+                    </h1>
+                    <h1 class="display-5 animate__animated animate__fadeInUp">
+                        <strong style="font-weight: 600"> Article</strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="team-one team-one__team-page">
     <div class="container">
 

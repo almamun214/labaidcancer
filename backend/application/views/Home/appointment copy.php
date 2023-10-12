@@ -26,36 +26,33 @@
 </style>
 
 
-<!-- Start:: Slider -->
-<section id="slider" style="top: -110px; position: relative">
-    <div
-            id="carouselExampleCaptions"
-            class="carousel slide"
-            data-bs-ride="carousel"
-    >
-        <div class="carousel-indicators">
-            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img
-                        src="<?php echo base_url(); ?>asset/frontend/images/doctor_background.png"
-                        class="d-block w-100"
-                        alt="..."
-                />
-                <div class="carousel-caption">
-                    <h1 class="display-3 animate__animated animate__fadeInUp">
-                        <strong style="font-weight: 600; margin-top: 30px"
-                        >Doctors</strong
-                        >
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$uri1 = $this->uri->segment(1);
+$uri2 = $this->uri->segment(2);
+$uri3 = $this->uri->segment(3);
+if (base_url() != current_url()) {
+    ?>
+    <nav aria-label="breadcrumb" class="container">
+        <ol class="breadcrumb "><!-- justify-content-center-->
+
+            <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <?php
+            if (!empty($uri1) & empty($uri2)) {
+                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
+            } else {
+                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($uri1) . "</a></li>";
+            }
+            if (!empty($uri2)) {
+                echo "<li class='breadcrumb-item'><a href='#'>" . ucwords($title) . "</a></li>";
+            }
+            ?>
+
+        </ol>
+    </nav>
+<?php } ?> 
+
+
 
 <section class="appointment-one appointment-one__appointment-page">
     <div class="container">
@@ -158,9 +155,8 @@
                     <div class="form-group pt-4">
                         <div class="g-recaptcha" data-sitekey="6LcPaskiAAAAAD8OrU0kfjJEVQWAf-_6INlsDugN"></div>
                     </div>
-                    <div class="col-xl-3 col-lg-12 p-4">
-                        <button type="submit" class="btn lp-btn-outline-primary ms-4 ">Submit Request</button>
-                        
+                    <div class="col-xl-3 col-lg-12">
+                        <button type="submit" class="appointment-one__btn thm-btn mt-4">Submit Request</button>
                     </div><!-- /.col-lg-3 -->
                     
                 </div><!-- /.row -->
@@ -187,7 +183,7 @@
         'Validation Fail Try Again!',
         'error'
         );
-        // <?php } ?>
+        <?php } ?>
         dob.max = new Date().toISOString().split("T")[0];
         booking_date.min = new Date().toISOString().split("T")[0];
         });

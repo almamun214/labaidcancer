@@ -4,7 +4,7 @@
 </section>
 <section id="faq" class="container">
     <div class="text-center">
-        <h2 class="title2">Have You Any Question ?</h2>
+        <h2 class="title2">Do You Have Any Question ?</h2>
         <h5 class="title1">Contact With Us Anytime</h5>
         <p>info@labaidcancer.com</p>
     </div>
